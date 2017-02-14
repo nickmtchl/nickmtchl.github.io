@@ -208,7 +208,7 @@ body.noScroll { /* ...or body.dialogShowing */
 	margin: 15px auto 0;
 	position: relative;
 	text-align: center;
-	width: 250px;
+	width: 100%;
 }
 .slide_text {
 	font-size: 18px;
