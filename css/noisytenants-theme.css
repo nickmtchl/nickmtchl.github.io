@@ -208,7 +208,7 @@ body.noScroll { /* ...or body.dialogShowing */
 	margin: 15px auto 0;
 	position: relative;
 	text-align: center;
-	width: 200px;
+	width: 50%;
 }
 .slide_text {
 	font-size: 18px;
@@ -395,7 +395,7 @@ body.noScroll { /* ...or body.dialogShowing */
 		margin-bottom: 10px;
 	}
 	.footer-paragraph {
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.footer-text {
 		width: 50%;
@@ -419,7 +419,7 @@ body.noScroll { /* ...or body.dialogShowing */
 	}
 	.slide_img {
 		margin: 0;
-		width: 300px;
+		width: 50%;
 	}
 	.slide_img-wrapper {
 		float: left;
