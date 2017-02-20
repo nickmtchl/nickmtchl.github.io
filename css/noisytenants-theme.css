@@ -488,9 +488,10 @@ body.noScroll { /* ...or body.dialogShowing */
 		width: 40%;
 	}
 	.slide_text {
-		margin-left: auto;
+		font-style: italic;
+	margin-left: auto;
     margin-right: auto;
-		width: 60%;
+	width: 60%;
 	}
 	.slide_text.slide_text-option {
 		font-size: 24px;
@@ -499,10 +500,11 @@ body.noScroll { /* ...or body.dialogShowing */
 	}
 	.slide_text.option0 {
 		font-size: 22px;
-		margin-top: 2.5em;
+		margin-top: .5em;
 		margin-left: auto;
     	margin-right: auto;
 		width: 100%;
+		float: left;
 	}
 	.slide_text.option2 {
 		float: right;
@@ -516,7 +518,7 @@ body.noScroll { /* ...or body.dialogShowing */
 	}
 	.slide_title-option2 {
 		float: left;
-		margin-top: 100px;
+		margin-top: 0px;
 		width: 45%;
 	}
 	.slide2_img-wrapper {
