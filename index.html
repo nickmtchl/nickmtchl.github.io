@@ -1,164 +1,46 @@
-<!doctype html>
-<html class="no-js" lang="">
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Noisy Tenants</title>
-      <meta name="author" content="Montier Kess" />
-      <meta name="portfolio" content="http://theivyproject.com" />
-      <meta name="description" content="Noisy Tenants - a community and residential institution">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="mobile-web-app-capable" content="yes">
-      
-      <!-- Meta OG Tags -->
-      <meta name="og:title" content="Noisy Tenants">
-      <meta name="og:title" content="A Community Agency">
-      <meta property="og:url" content="http://www.noisytenants.com" />
-      <meta property="og:image" content="img/og-img.png" />
+---
+layout: hero_bg
+--- 
+<!-- Slider -->
+<div class="nt_slider clearfix">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign features = site.work | where:"featured", "yes" | sort:"featured-rank" %}
+  {% for work in features limit: 3 %}
+  
+  {% if work.slide == "slide1" %}
+  <!-- Slide 1 -->
+  <div class="slide">
 
-      <link rel="apple-touch-icon" href="apple-touch-icon.png">
-      <!-- Place favicon.ico in the root directory -->
+    <div class="slide_img_wrapper">
+      <img src="{{ work.img-path }}" class="slide_img" />  
+    </div>
+    <div class="headline">
+      {{ work.description }}
+    </div>
+    {% include btn_30.html btn_color='on_brand_dark' url-location='work/noisy-burger' url-text="read more" %}
+  
+  </div><!-- #Slide 1 -->
+  {% endif %}
 
-      <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-      <link rel="stylesheet" type="text/css" href="css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
-      <link rel="stylesheet" type="text/css" href="css/noisytenants-theme.css">
-      <link rel="stylesheet" type="text/css" href="css/loader.css">
-      
-      <!-- Script Files -->
-      <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-      <script src="js/vendor/jquery-1.12.0.min.js"></script>
-      <script src="js/main.js"></script>
-  </head>
+  {% if work.slide == "slide2" %}
+  <!-- Slide 2 -->
+  <div class="slide">
+    <div class="headline">{{ work.date | date: '%B %d, %Y' }} @ <div class="mobile-block">{{ work.location }}</div></div>
+    <div class="slide_img_wrapper">
+      <img src="{{ work.img-path }}" class="slide2_img" />  
+    </div>
+    <div class="headline">
+      {{ work.description }}
+    </div>
+    {% include btn_30.html btn_color='on_brand_dark' url-location='work/revenge-of-emmett-till' url-text="read more" %}
+  </div><!-- #Slide2 -->
+  {% endif%}
 
-  <body>
-    <!-- Preloader -->
-    <div id="preloader"></div>
-    <div class="container">
-      <div class="hero-bg">
-            
-        <!-- Header -->
-        <header class="site-header clearfix">
-          <div class="logo">
-            <img src="img/nt-logo-icon.png" width="25" /><span class="logo_text">Noisy Tenants</span>
-          </div>
-          <div class="menu">
-            <div id="menu-container" class="menu-btn">
-              <button id="overlay-menu" type="button" class="menuButton">&equiv;</button>
-            </div>
-            <div class="overlay overlay-data noScroll">
-              <button type="button" class="overlay-close">Close</button>
-              <nav>
-                <ul>
-                  <li><a href="/">about us</a></li>
-                  <li><a href="{{ site.baseurl }}/featured">what we do</a></li>
-                  <li><a href="{{ site.baseurl }}/about">contact us</a></li>
-                  <li class="menu-content">
-                    Noisy Tenants<br>developing partnerships in the great city of Baltimore,&nbsp;MD<br><br>
-                    Housed in<br>Greenmount&nbsp;West<br>Station North
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </header> <!-- header -->
+  {% endfor %}
 
-        <!-- Slider -->
-        <div class="nt-slider clearfix">
+</div><!-- nt-slider -->
+  
 
-          <!-- Slide 1 -->
-          <div class="slide">
-            <div class="slide_text option0">  Complete site launching soon! 
-            </div>               
-          </div>
 
-          <!-- Slide 2 -->
-          <!-- Hiding Slide 2 - for now... Replace with Bus Stop Buddies slide
-          <div class="slide">
-            <div class="slide_meta">
-              <div class="slide_date">
-                Tuesday <span class="no-break">December&nbsp;12</span>
-              </div>
-              <div class="slide_title">
-                revenge of emmett till
-              </div>
-            </div>
-            <div class="slide2_img-wrapper">
-              <img src="img/slide2.png" class="slide2_img" />
-            </div>
-          </div>
-          -->
-
-          <!-- Slide 3 -->
-
-         <!-- .nt-slider -->
-
-      </div><!-- .hero-bg -->
-    </div> <!-- .container -->
     
-    <!-- Footer -->
-    <footer class="site-footer clearfix">
-      <div class="footer-center">
-
-        <!-- .hideme is for the slow reveal animation of the footer-menu content -->
-        <div class="footer1 hideme">
-          <ul class="footer-menu">
-            <li><a href="#">about us</a></li>
-            <li><a href="#">what we do</a></li>
-            <li><a href="mailto:nick@noisytenants.com">contact us</a></li>
-          </ul>
-          <p class="footer-paragraph">
-            Noisy Tenants are agents for change and actively seek projects that point back to community. We aim to connect businesses, schools, neighborhoods on projects that have the capacity to give back and be built upon way after the initial project ends.  We look to be a neighborhood&nbsp;institution.
-          </p>
-        </div>
-        <div class="footer2">
-          <div class="footer-logo">
-            <img src="img/footer-logo.png" class="footer-logo_img" />
-          </div>
-          <div class="footer-text">
-            housed in <br><a href="http://www.greenmountwest.org" target="_blank">greenmount west</a><br><a href="http://www.stationnorth.org" target="_blank">station north</a>
-          </div>
-           <div class="footer-text">
-            <BR>1634 Guilford Avenue<br>Baltimore MD 21202
-          </div>
-          <div class="social-icons">
-            <a href="http://www.instagram.com/noisytenants" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-            <a href="http://www.twitter.com/noisytenants" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-            <a href="http://www.facebook.com/noisytenants" target="_blank"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
-          </div>
-          <div class="copy">
-            &copy; 2017 Noisy Tenants<br>All Rights Reserved.
-          </div>
-        </div>
-      </div>
-    </footer><!-- #Footer -->
-
-    <!-- Javascript -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
-    <script src="https://use.fontawesome.com/d476a27cae.js"></script>
-    <script src="js/jquery.fadethis.min.js"></script>
-    <script src="js/footer-reveal.js"></script>
-
-    <!-- Javascript Sources for Slick Slider -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <!-- Google Analytics: We need Google Analytics number -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-85274042-1','auto');ga('send','pageview');
-    </script>
-
-    <!-- JQuery FadeThis -->
-    <script>$(window).fadeThis({speed: 500, distance: 5});</script>
-  </body>
-</html>
+    
