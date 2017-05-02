@@ -15,6 +15,7 @@
 * Hero
 * - Slider
 * - Slick Slider Properties
+* - Video On Click Feature
 * About
 * Work
 * - Food Menu
@@ -445,6 +446,81 @@ a.link:hover {
 	border-bottom: 1px solid;
 	margin: 0 auto 5em;
 	width: 50%;
+}
+
+/* Video On Click Feature */
+.noisy_video_overlay {
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  left: -100%;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+.video_container {
+  width: 87%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  -webkit-transform: translate(-50%, 5%);
+}
+.video_onclick {
+	width: 100%;
+  height: 100vh;
+  color: white;
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-display: flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+.play {
+  width: 70px;
+  height: 70px;
+  background: #e44d4e;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+}
+.play:hover {
+  background: #A7333F;
+  cursor: pointer;
+}
+.play:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left:  -8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #ffffff;
+}
+.html5_close {
+  width: 20px;
+  position: absolute;
+  color: #000;
+  right: -15px;
+  top: -30px;
+}
+.html5_close:hover {
+  /*fill: rgba(255,255,255,0.5);*/
+  color: #E44D4E;
+  cursor: pointer;
+}
+.html5_show {
+  opacity: 1;
 }
 
 /* Work */

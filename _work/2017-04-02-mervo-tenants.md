@@ -4,8 +4,7 @@ layout: work_video_layout
 title: "Mervo <br />Tenants"
 description: "a pop up restaurant designed and executed with students at Mervo High School"
 hero-img: /img/mervo-hero.png
-video-url: "https://player.vimeo.com/video/198145423?api=1"
-
+video-url: "https://player.vimeo.com/video/163042727?api=1"
 creditList: "mervo-credits"
 galleryList: "mervo-gallery"
 ---
