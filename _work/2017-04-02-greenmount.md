@@ -1,9 +1,12 @@
 ---
 layout: coming_soon
 
-title: "The Revenge of Emmett Till"
+title: "Greenmount West Film Festival"
 description: "A night of fundraising around&nbsp;film"
-img-path: "/img/revenge_emmett.png"
+img-path: "/img/film.png"
 location: "The Charles Theatre"
 
+featured: "yes"
+featured-rank: "2"
+slide: "slide2"
 ---

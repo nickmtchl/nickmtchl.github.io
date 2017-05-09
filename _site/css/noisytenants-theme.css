@@ -808,7 +808,8 @@ input {
 @media screen and (min-width: 500px) {
 	/* Reusable Elements */
 	.noisy_wrapper {
-		margin-left: 30px;
+		/*margin-left: 30px;*/
+		margin: 100px auto;
 		max-width: 470px;
 	}
 	.nt_slider {
@@ -1015,9 +1016,9 @@ input {
 		max-width: 1450px;
 	}
 	.site_header {
-		max-width: 1450px;
+		/*max-width: 1450px;*/
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 40px;
 	}
 	.site_header_wrapper {
 		max-width: 1450px;
@@ -1031,7 +1032,7 @@ input {
 		margin-left: 45px;
 	}
 	.overlay-close {
-		right: 58px;
+		right: 53px;
 	}
 	.default_text_lg {
 		font-size: 24px;
