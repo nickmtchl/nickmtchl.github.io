@@ -15,7 +15,7 @@ permalink: /about/
 	<div class="wrapper_30">A few things best capture my background: I was born and raised in Nigeria and am still very much connected to home. However, Baltimore has become a second home between attending undergraduate and graduate schools here, and living here throughout my adult life. While I have enjoyed (and continue to) my work life thus far, I am happily enjoying family life as well. I spend my free time today spending time with or thinking about my family and friends.....and Baltimore Corps.</div>
 </div>
 <div class="member_bio_img">
-	<img src="/img/member1.png" />
+	<img src="/img/nick.png" />
 </div>
 </div>
 <div class="member_spacer">&nbsp;</div>
@@ -28,5 +28,5 @@ permalink: /about/
 	<div class="wrapper_30">A few things best capture my background: I was born and raised in Nigeria and am still very much connected to home. However, Baltimore has become a second home between attending undergraduate and graduate schools here, and living here throughout my adult life. While I have enjoyed (and continue to) my work life thus far, I am happily enjoying family life as well. I spend my free time today spending time with or thinking about my family and friends.....and Baltimore Corps.</div>
 </div>
 <div class="member_bio_img">
-	<img src="/img/member1.png" />
+	<img src="/img/chris.png" />
 </div>
