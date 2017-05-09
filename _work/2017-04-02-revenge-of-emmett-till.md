@@ -1,9 +1,9 @@
 ---
 layout: coming_soon
 
-title: "The Revenge of Emmett Till"
+title: "Noisy Tenants present Greenmount West Film Festival"
 description: "A night of fundraising around&nbsp;film"
-img-path: "/img/revenge_emmett.png"
+img-path: "/img/filmfestival.png"
 location: "The Charles Theatre"
 
 featured: "yes"
