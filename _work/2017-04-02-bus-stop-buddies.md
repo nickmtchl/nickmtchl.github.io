@@ -2,7 +2,7 @@
 layout: work_film_layout
 
 title: "Bus Stop Buddies: A Short Film"
-description: "a pop up restaurant designed and executed with students at Mervo High School"
+description: "Take a peak into Bus Stop Buddies - A community initiative in Greenmount West where adults stand with elementary youth each morning in an effort to provide a positive start to their days."
 
 hero-img: /img/hero-bus-stop-buddies.png
 film-date: "May 4, 2017 6:00 P.M."
