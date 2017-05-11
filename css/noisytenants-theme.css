@@ -24,6 +24,10 @@
 * - Signup
 * - Credits
 * - Gallery
+* - Values
+* - Film
+* - Video
+* Contact
 * Footer Menu
 * Media Queries
 *
@@ -658,6 +662,10 @@ a.link:hover {
 }
 .film-wrapper a:hover {
 	color: #000;
+}
+.film_item img {
+	width: 100%;
+	margin-bottom: 25px;
 }
 /* - Video */
 .play-btn a {
