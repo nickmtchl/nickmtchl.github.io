@@ -19,6 +19,15 @@ url-text: "Read More"
 
 <div class="template_wrapper">
 
+		<div class="film_item">
+		<img src="/img/busstopbuddies.png">
+		{% include value.html value-title='Bus Stop Buddies' value-text='
+		<p>Produced by: Noisy Tenants</p>
+		<p>Run Time: 5:01</p>
+		<p>In a stifling New York City, Paul, a precarious young man implores his friend and confident Mimi to help him meditate. What follows is a dream-like flight through memories of the past, lost love, family and the quest for new beginnings. </p>' %}
+		<hr>
+	</div>
+
 	<div class="film_item">
 		<img src="/img/bigcity.png">
 		{% include value.html value-title='Big City: Minisode' value-text='

@@ -21,10 +21,10 @@ permalink: /about/
 <div class="member_spacer">&nbsp;</div>
 <div class="noisy_wrapper_member clearfix">
 <div class="default_text_med half_float_left">
-	<div class="wrapper_30 default_text_lg">Christpher Landrum, Cofounder</div>
-	<div class="default_text_lg">Christpher's Role:</div>
+	<div class="wrapper_30 default_text_lg">Christopher Landrum, Cofounder</div>
+	<div class="default_text_lg">Christopher's Role:</div>
 	<div class="wrapper_30">Coming Soon.</div>
-	<div class="default_text_lg">Christpher's Background:</div>
+	<div class="default_text_lg">Christopher's Background:</div>
 	<div class="wrapper_30">Coming Soon.</div>
 </div>
 <div class="member_bio_img">
