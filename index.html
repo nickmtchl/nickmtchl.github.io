@@ -17,7 +17,11 @@ layout: hero_bg
     <div class="headline">
       {{ work.description }}
     </div>
-    {% include btn_30.html btn_color='on_brand_dark' url-location='work/noisy-burger' url-text="read more" %}
+    <div class="btn_wrapper_30">
+      <div class="btn_cta {{ work.btn_color }}">
+        <a href="{{ work.url }}">{{ work.url-text }}</a>
+      </div>
+    </div>
   
   </div><!-- #Slide 1 -->
   {% endif %}
@@ -32,7 +36,12 @@ layout: hero_bg
     <div class="headline">
       {{ work.description }}
     </div>
-    {% include btn_30.html btn_color='on_brand_dark' url-location='work/revenge-of-emmett-till' url-text="read more" %}
+    <!-- decided not to use the partial btn_30.html here because the URL needs to be dynamically updated and partials can only take values as parameters, no variables allowed -->
+    <div class="btn_wrapper_30">
+      <div class="btn_cta {{ work.btn_color }}">
+        <a href="{{ work.url }}">{{ work.url-text }}</a>
+      </div>
+    </div>
   </div><!-- #Slide2 -->
   {% endif%}
 

@@ -5,6 +5,7 @@ title: "Greenmount West Film Festival"
 description: "a night of fundraising around film"
 hero-img: /img/mervo-hero.png
 video-url: "https://player.vimeo.com/video/163042727?api=1"
+
 creditList: "mervo-credits"
 galleryList: "mervo-gallery"
 
@@ -12,6 +13,8 @@ img-path: "/img/filmfestival.png"
 featured: "yes"
 featured-rank: "2"
 slide: "slide2"
+btn_color: "on_brand_dark"
+url-text: "Read More"
 ---
 
 <div class="template_wrapper">

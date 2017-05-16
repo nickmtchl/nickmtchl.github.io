@@ -5,6 +5,7 @@ title: "Mervo <br />Tenants"
 description: "Connecting with Students from Local Schools"
 hero-img: /img/mervo-hero.png
 video-url: "https://player.vimeo.com/video/163042727?api=1"
+
 creditList: "mervo-credits"
 galleryList: "mervo-gallery"
 
@@ -12,6 +13,8 @@ img-path: "/img/mervotenants.png"
 featured: "yes"
 featured-rank: "3"
 slide: "slide2"
+btn_color: "on_brand_dark"
+url-text: "Read More"
 ---
 
 <div class="template_wrapper">
