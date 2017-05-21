@@ -174,6 +174,29 @@ a.link:hover {
 .template_wrapper {
 	margin: 100px 20px;
 }
+.template_wrapper_inner {
+	padding-top: 50px;
+
+}
+
+.no-margin {
+	margin: 0 auto !important;
+}
+.image_center {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.title_underline::after {
+	content: '';
+	display: block;
+	width: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid;
+	margin-bottom: 30px;
+}
+.normal_text {
+	font-weight: normal;
+}
 /* - Flex */
 .flex {
 	display: flex;
@@ -367,8 +390,9 @@ a.link:hover {
 
 /* Hero */
 .noisy_hero {
-	background: url('../img/bg.jpg') top center;
-	background-repeat: repeat;
+	background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -531,6 +555,28 @@ a.link:hover {
 .work_item_wrapper {
 	margin-bottom: 3em;
 	width: 200px;
+	margin-left: 25px;
+}
+.work_picture {
+	margin-bottom: 20px;
+}
+.work_picture img {
+	width: 100%;
+}
+.page_copy_wrapper {
+	width: 90%;
+}
+.page_copy_section {
+	margin-bottom: 100px;	
+}
+.page_copy_title {
+	font-size: 28px;
+	margin-bottom: 40px;
+}
+.page_copy_text {
+	font-size: 18px;
+	text-transform: initial;
+	margin: 0 0 55px 25px;
 }
 /* - Food Menu */
 .menu_wrapper {
@@ -566,6 +612,50 @@ a.link:hover {
 	font-size: 15px;
 	text-transform: initial;
 }
+
+
+.testimonial_list li {
+	/*width: 95%;*/
+	list-style: none;
+	margin: 0 5px 35px;
+	padding: 15px 25px 15px 0;
+}
+.brand_red {
+	background: #E44D4E;
+}
+.page_title_option {
+	font-size: 32px;
+	text-transform: initial;
+	padding: 20px 0 20px 10px;
+	margin-bottom: 50px;
+}
+.page_title_option::after {
+	content: '';
+	border-bottom: 1px solid;
+	display: block;
+	padding-bottom: 20px;
+	width: 50px;
+}
+.testimonial_thumbnail {
+	width: 34%;
+	float: left;
+	margin-right: 20px;
+	max-width: 130px;
+}
+.testimonial_thumbnail img {
+	width: 100%;
+}
+.testimonial_text {
+	width: 57%;
+	float: left;
+	text-transform: initial;
+}
+
+/* Press */
+.press_thumbnail img {
+	width: 100%;
+}
+
 /* - Event CTA Text */
 .event_cta_text_wrapper {
 	width: 80%;
@@ -580,9 +670,9 @@ a.link:hover {
 	text-transform: initial;
 }
 /* - Signup */
-.signup_wrapper {
+/*.signup_wrapper {
 	margin: 10px auto;
-}
+}*/
 /* - Credits */
 .noisy-credits {
 	margin: 0 auto 40px;
@@ -604,7 +694,7 @@ a.link:hover {
 	text-align: center;
 }
 #double li {
-	width: 45%;
+	width: 100%;
 }
 /* - Gallery */
 .gallery_wrapper {
@@ -662,6 +752,9 @@ a.link:hover {
 }
 .film-wrapper a:hover {
 	color: #000;
+}
+.film_item {
+	margin-bottom: 100px;
 }
 .film_item img {
 	width: 100%;
@@ -827,6 +920,12 @@ input {
 		margin: 100px auto;
 		max-width: 450px;
 	}
+	.template_wrapper_inner {
+		max-width: 500px;
+		margin: 50px auto;
+		padding-top: 0;
+	}
+
 	.pull_tight {
 		width: 60%;
 	}
@@ -840,9 +939,12 @@ input {
 	/* Work */
 	.work_item_wrapper {
 		float: left;
-		height: 165px;
+		height: 275px;
 		margin-left: 1em;
 		margin-right: 0.8em;
+	}
+	.page_copy_text {
+		margin: 0 0 55px 55px;
 	}
 	.noisy-gallery li {
 		width: 47%;
@@ -858,6 +960,10 @@ input {
 	.food_menu_wrapper {
 		width: 60%;
 		margin: 0 auto;
+	}
+	/* - Credits */
+	#double li {
+		width: 45%;
 	}
 }
 
@@ -888,6 +994,23 @@ input {
 	.testimonial_item_wrapper {
 		width: 50%;
 	}
+	.testimonial_list li {
+		width: 44%;
+		float: left;
+		padding: 15px 15px 15px 0;
+	}
+	.testimonial_text {
+		width: 57%;
+	}
+	.testimonial_thumbnail {
+		width: 32%;
+	}
+	.template_wrapper {
+		max-width: 650px;
+	}
+	.film_item {
+		margin-bottom: 45px;
+	}
 
 	/* Hero */
 	.hero-bg {
@@ -896,9 +1019,6 @@ input {
 	.site-header {
 		padding: 0 50px;
 	}
-	/*.overlay-close {
-		right: 63px;
-	}*/
 	.noisy-gallery {
 		width: 100%;
 		color: #fff;
@@ -915,6 +1035,17 @@ input {
 	}
 	.member_spacer {
 		width: 25%;
+	}
+	/* Film */
+
+	.film_item_thumbnail {
+		width: 45%;
+		float: left;
+		margin-right: 20px;
+	}
+	.film_item_text {
+		width: 51%;
+		float: left;
 	}
 
 	/* Footer */
@@ -978,9 +1109,17 @@ input {
 	
 }
 
+@media screen and (min-width: 900px) {
+}
+
 /* Desktop Viewport, iPad Pro */
 @media screen and (min-width: 1024px) {
 	
+
+	.template_wrapper {
+		max-width: 750px;
+	}
+
 	/* Overlay Menu */
 	.menu-content {
 		width: 30% !important;

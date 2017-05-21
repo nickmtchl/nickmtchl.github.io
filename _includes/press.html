@@ -1,0 +1,21 @@
+<section style="color: {{ include.press-textcolor }}; background-color: {{ include.press-bgcolor }}">
+	<div class="template_wrapper no-margin">
+	<div class="page_title_option">{{ include.press-title }}</div>
+	<div>
+		<ul class="testimonial_list clearfix">
+			{% for press in site.data.[include.pressList] %}
+			<li class="clearfix">
+				<div class="press_thumbnail">
+					<img src="{{ press.thumbnail }}" />
+				</div>
+				<div class="btn_wrapper_30">
+					<div class="btn_cta on_brand_dark">
+						<a href="{{ press.press-url }}">Read More</a>
+					</div>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	</div>
+</section>

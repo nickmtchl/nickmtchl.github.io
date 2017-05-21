@@ -24,7 +24,7 @@
 			#mc_embed_signup_scroll .button {
 				text-decoration: none !important;
 				background-color: transparent; !important;
-				color: #e44d4e !important;
+				color: #000 !important;
 				font-size: 12px !important;
 				padding: 0 4px !important;
 				width: 40% !important;
@@ -33,12 +33,12 @@
 				border-radius: 0 !important;
 				margin: 0 auto !important;
 				max-width: 150px !important;
-				border: 1px solid #e44d4e !important;
+				border: 1px solid #000 !important;
 				text-transform: uppercase !important;
 				font-weight: bolder;
 			}
 			#mc_embed_signup_scroll .button:hover {
-				background-color: #e44d4e !important;
+				background-color: #000 !important;
 				color: #fff !important;
 			}
 			#mc_embed_signup_scroll #mce-EMAIL {
@@ -56,10 +56,10 @@
 					}
 				}
 		</style>
-	<div id="mc_embed_signup">
+	<div id="mc_embed_signup" style="background-color: {{ include.signup-bgcolor }} !important;">
 		<form action="http://noisytenants.com/thank-you/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     	<div id="mc_embed_signup_scroll">
-				<label for="mce-EMAIL">Signup for our newsletter to receive our secret menu developed by mervo students</label>
+				<label for="mce-EMAIL">{{ include.signup-text }}</label>
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0db703f6939fa4c15f327f636_b9d07cadc8" tabindex="-1" value=""></div>
