@@ -12,7 +12,8 @@ Download this folder
 
 Open terminal and cd into folder
 
-run this command: 
+run this command:
+
 	bundle exec jekyll serve
 
 Open in browser: localhost:4000
