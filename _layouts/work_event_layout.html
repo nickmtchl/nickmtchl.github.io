@@ -2,14 +2,14 @@
 layout: black_bg
 --- 
 
-<div class="noisy_hero flex" style="background-image: url({{ page.hero-img }}); color: {{ page.color-text }};">
+<div class="noisy_hero flex" style="background-image: url({{ page.project-hero }}); color: {{ page.project-hero-text-color }};">
 	<div class="wrapper_30"><img src="{{ page.event-picture }}" width="{{ page.event-picture_width }}" /></div>
 	<div class="wrapper_30 pull_center pull_tight">{{ page.event-description }}</div>
 	<div class="wrapper_30">{{ page.event-date }}</div>
 
-	<div class="default_text_micro">{{ page.location-name }}</div>
-	<div class="default_text_micro">{{ page.location-address }}</div>
-	<div class="default_text_micro">{{ page.locale }}</div>
+	<div class="default_text_micro">{{ page.event-location-name }}</div>
+	<div class="default_text_micro">{{ page.event-location-address }}</div>
+	<div class="default_text_micro">{{ page.event-locale }}</div>
 </div>
 
 {{ content }}

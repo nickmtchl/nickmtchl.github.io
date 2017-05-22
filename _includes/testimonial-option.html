@@ -3,7 +3,7 @@
 	<div class="page_title_option">{{ include.testimonial-title }}</div>
 	<div>
 		<ul class="testimonial_list clearfix">
-			{% for member in site.data.[include.testimonialList] %}
+			{% for member in site.data.[include.data-testimonialList] %}
 			<li class="clearfix">
 				<div class="testimonial_thumbnail"><img src="{{ member.thumbnail }}" /></div>
 				<div class="testimonial_text">{{ member.name }}<br/>

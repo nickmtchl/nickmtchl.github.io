@@ -4,42 +4,41 @@ layout: hero_bg
 <!-- Slider -->
 <div class="nt_slider clearfix">
 
-  {% assign features = site.work | where:"featured", "yes" | sort:"featured-rank" %}
+  {% assign features = site.work | where:"slide-featured", "yes" | sort:"slide-featured-rank" %}
   {% for work in features limit: 3 %}
   
-  {% if work.slide == "slide1" %}
+  {% if work.slide-template == "slide1" %}
   <!-- Slide 1 -->
   <div class="slide">
 
     <div class="slide_img_wrapper">
-      <img src="{{ work.img-path }}" class="slide_img" />  
+      <img src="{{ work.slide-img }}" class="slide_img" />  
     </div>
     <div class="headline">
       {{ work.description }}
     </div>
     <div class="btn_wrapper_30">
-      <div class="btn_cta {{ work.btn_color }}">
-        <a href="{{ work.url }}">{{ work.url-text }}</a>
+      <div class="btn_cta on_brand_dark">
+        <a href="{{ work.url }}">read more</a>
       </div>
     </div>
   
   </div><!-- #Slide 1 -->
   {% endif %}
 
-  {% if work.slide == "slide2" %}
+  {% if work.slide-template == "slide2" %}
   <!-- Slide 2 -->
   <div class="slide">
     <div class="headline">{{ work.date | date: '%B %d, %Y' }} @ <div class="mobile-block">{{ work.location }}</div></div>
     <div class="slide_img_wrapper">
-      <img src="{{ work.img-path }}" class="slide2_img" />  
+      <img src="{{ work.slide-img }}" class="slide2_img" />  
     </div>
     <div class="headline">
       {{ work.description }}
     </div>
-    <!-- decided not to use the partial btn_30.html here because the URL needs to be dynamically updated and partials can only take values as parameters, no variables allowed -->
     <div class="btn_wrapper_30">
-      <div class="btn_cta {{ work.btn_color }}">
-        <a href="{{ work.url }}">{{ work.url-text }}</a>
+      <div class="btn_cta on_brand_dark">
+        <a href="{{ work.url }}">read more</a>
       </div>
     </div>
   </div><!-- #Slide2 -->

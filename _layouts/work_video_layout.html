@@ -2,6 +2,7 @@
 layout: black_bg
 --- 
 
+{% if page.video-url %}
 <div class="noisy_video_overlay">
   <div class="video_container">
 
@@ -13,11 +14,14 @@ layout: black_bg
 
   </div>
 </div>
+{% endif %}
 
-<div class="video_onclick" style="background-image: url('{{ page.hero-img }}');">
+<div class="video_onclick" style="background-image: url('{{ page.project-hero }}');">
+	{% if page.video-url %}
   <div>
     <span class="play"></span>
   </div>
+  {% endif %}
 </div>
 
 {{ content }}

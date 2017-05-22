@@ -59,12 +59,19 @@ body.noScroll { /* ...or body.dialogShowing */
 	text-transform: initial;
 }
 .page_title {
-	border-bottom: 1px solid;
 	font-size: 32px;
-	margin-bottom: 100px;
-	margin-top: 40px;
-	padding-bottom: 10px;
+}
+.page_title::after {
+	content: '';
 	width: 50px;
+	border-bottom: 1px solid;
+	display: block;
+	padding-bottom: 10px;
+}
+.page_title_wrapper {
+	padding: 0 20px;
+	background: #000;
+	margin: 40px 0 100px 0;
 }
 .page_title_alt {
 	font-size: 32px;
@@ -107,7 +114,7 @@ body.noScroll { /* ...or body.dialogShowing */
 	border-bottom: 1px solid #e44d4e;
 }
 .noisy_wrapper {
-	margin: 100px 20px;
+	margin: 0 20px 100px 20px;
 }
 /* - CTA Buttons */
 .btn_wrapper_70 {
@@ -172,7 +179,7 @@ a.link:hover {
 	padding-top: 50px;
 }
 .template_wrapper {
-	margin: 100px 20px;
+	margin: 0px 20px 100px 20px;
 }
 .template_wrapper_inner {
 	padding-top: 50px;
@@ -184,7 +191,7 @@ a.link:hover {
 }
 .image_center {
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 50px 0;
 }
 .title_underline::after {
 	content: '';
@@ -225,7 +232,7 @@ a.link:hover {
 }
 .gallery_img {
 	width: 100%;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 .black_text {
 	color: #000;
@@ -446,7 +453,7 @@ a.link:hover {
 }
 /* - Slick Slider Properties */
 .slick-dots {
-	left: 1px;
+	left: -15px;
 	bottom: 10px;
 	width: 100%;
 	text-align: right;
@@ -493,7 +500,7 @@ a.link:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 5%);
-  -webkit-transform: translate(-50%, 5%);
+  -webkit-transform: translate(-50%, 50%);
 }
 .video_onclick {
 	width: 100%;
@@ -539,7 +546,7 @@ a.link:hover {
   width: 20px;
   position: absolute;
   color: #000;
-  right: -15px;
+  right: 30px;
   top: -30px;
 }
 .html5_close:hover {
@@ -554,7 +561,7 @@ a.link:hover {
 /* Work */
 .work_item_wrapper {
 	margin-bottom: 3em;
-	width: 200px;
+	width: 90%;
 	margin-left: 25px;
 }
 .work_picture {
@@ -910,14 +917,14 @@ input {
 	/* Reusable Elements */
 	.noisy_wrapper {
 		/*margin-left: 30px;*/
-		margin: 100px auto;
+		margin: 0 auto 100px;
 		max-width: 470px;
 	}
 	.nt_slider {
 		width: 400px;
 	}
 	.template_wrapper {
-		margin: 100px auto;
+		margin: 0 auto 100px;
 		max-width: 450px;
 	}
 	.template_wrapper_inner {
@@ -939,12 +946,14 @@ input {
 	/* Work */
 	.work_item_wrapper {
 		float: left;
+		width: 200px;
 		height: 275px;
 		margin-left: 1em;
 		margin-right: 0.8em;
 	}
 	.page_copy_text {
 		margin: 0 0 55px 55px;
+		width: 85%;
 	}
 	.noisy-gallery li {
 		width: 47%;

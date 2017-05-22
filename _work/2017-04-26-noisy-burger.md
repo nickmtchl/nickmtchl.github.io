@@ -1,34 +1,30 @@
 ---
-layout 						: work_event_layout
+layout 										: work_event_layout
+title 										: "Noisy <br />Burger"
 
-color-text 				: "#fff"
-hero-img 					: "/img/hero-noisyburger.png"
-title 						: "Noisy <br />Burger"
-description 			: "a pop up restaurant designed and executed with students at Mervo High School"
-thumbnail					: "/img/thumbnail-noisy-burger.png"
+data-galleryList					: "noisyburger-gallery"
 
-img-path 					: "/img/noisy_burger.png"
+event-title 							: /img/event-title_noisy-burger.png
+event-title_width 				: 260
+event-description 				: "a mervo tenants x noisy tenants collaboration"
+event-picture 						: /img/logo-noisy-burger.png
+event-picture_width				: 200
+event-date 								: "April 26, 2017 - May 2, 2017"
+event-date_width 					: 200
+event-locale 							: "Baltimore, MD 21211"
+event-location-name 			: "R. House - Pop Up Stall"
+event-location-address 		: "301 W. 29th Street"
 
-featured 					: "yes"
-featured-rank 		: "1"
-slide 						: "slide1"
-btn_color 				: "on_brand_dark"
-url-text 					: "Read More"
+project-hero-textcolor 		: "#fff"
+project-hero 							: "/img/hero-noisyburger.png"
 
-event-title 			: /img/event-title_noisy-burger.png
-event-title_width : 260
-event-description : "a mervo tenants x noisy tenants collaboration"
-event-picture 		: /img/logo-noisy-burger.png
-event-picture_width: 200
-event-date 				: "April 26, 2017 - May 2, 2017"
-event-date_width 	: 200
+slide-img 								: "/img/noisy_burger.png"
+slide-featured 						: "yes"
+slide-featured-rank 			: "1"
+slide-template 						: "slide1"
 
-location-name 		: "R. House - Pop Up Stall"
-location-address 	: "301 W. 29th Street"
-locale 						: "Baltimore, MD 21211"
-
-galleryList				: "noisyburger-gallery"
-
+work-description 					: "a pop up restaurant designed and executed with students at Mervo High School"
+work-thumbnail						: "/img/thumbnail-noisy-burger.png"
 ---
 
 {% include foodmenu.html %}
@@ -47,11 +43,11 @@ galleryList				: "noisyburger-gallery"
 	</div>
 </div>
 
-{% include testimonial-option.html testimonialList='noisyburger2017-testimonials' testimonial-title='c/o 2017' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
+{% include testimonial-option.html data-testimonialList='noisyburger2017-testimonials' testimonial-title='c/o 2017' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
 
-{% include testimonial-option.html testimonialList='noisyburger2018-testimonials' testimonial-title='c/o 2018' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
+{% include testimonial-option.html data-testimonialList='noisyburger2018-testimonials' testimonial-title='c/o 2018' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
 
-{% include testimonial-option.html testimonialList='noisyburger2019-testimonials' testimonial-title='c/o 2019' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
+{% include testimonial-option.html data-testimonialList='noisyburger2019-testimonials' testimonial-title='c/o 2019' testimonial-textcolor='#000' testimonial-bgcolor='#fff' %}
 
 {% include press.html pressList='noisyburger-press' press-title='PRESS' press-textcolor='#000' press-bgcolor='#f4f1f1' %}
 

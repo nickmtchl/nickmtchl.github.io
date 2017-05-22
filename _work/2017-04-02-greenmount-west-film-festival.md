@@ -1,23 +1,23 @@
 ---
 layout 						: work_film_layout
-
 title 						: "Greenmount West Film Festival"
-description 			: "a night of fundraising around film"
-thumbnail					: "/img/thumbnail-greenmount-film-festival.png"
-hero-img 					: /img/mervo-hero.png
-video-url 				: "https://player.vimeo.com/video/163042727?api=1"
+
+data-creditList 	: "mervo-credits"
+data-galleryList 	: "mervo-gallery"
 
 film-host					: "presented by noisy tenants"
 
-creditList 				: "mervo-credits"
-galleryList 			: "mervo-gallery"
+project-hero 			: /img/mervo-hero.png
 
-img-path 					: "/img/filmfestival.png"
-featured 					: "yes"
-featured-rank 		: "2"
-slide 						: "slide2"
-btn_color 				: "on_brand_dark"
-url-text 					: "Read More"
+slide-img 					: "/img/filmfestival.png"
+slide-featured 					: "yes"
+slide-featured-rank 		: "2"
+slide-template 						: "slide2"
+
+video-url 				: "https://player.vimeo.com/video/163042727?api=1"
+
+work-description 	: "a night of fundraising around film"
+work-thumbnail		: "/img/thumbnail-greenmount-film-festival.png"
 ---
 
 <div class="template_wrapper">
