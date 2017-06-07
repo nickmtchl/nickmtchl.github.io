@@ -20,9 +20,7 @@ work-thumbnail			: "/img/thumbnail-mervo-tenants.png"
 
 <div class="template_wrapper">
 	<div class="template_wrapper_inner">
-	{% include value.html value-icon='/img/logo-noisy-x-mervo.png' value-icon-width='150' value-title='Noisy Tenants &amp; <br/>Mervo High School' value-text='<p>Mergenthaler Vocational Technical High School is a trade school  with one of the largest academic trade programs enrolling over 1500 students within Baltimore City. They provide trade programming in various areas such as nursing, accounting, culinary arts, and carpentry and strive to offer an experience that impacts students' lives forever. </p>
-
-	<p>After meeting with the principal we were able to design a program plan that pushed the school’s agenda for the year with access to our network of resources and created opportunities for students to gain entrepreneurial skills.</p>' %}
+	{% include value.html value-icon='/img/logo-noisy-x-mervo.png' value-icon-width='150' value-title='Noisy Tenants &amp; <br/>Mervo High School' value-text='text here' %}
 
 	{% include value.html value-icon='/img/process-icon.png' value-icon-width='50' value-title='Our Process' value-text='We encourage unique collaborations and well thought out plans for every project that involves our personal and intensive methods of brainstorming, problem solving, and inter-personal challenges. We don't discard variations or difference in approach based on grandness or being unorthodox. Every task within the process takes thorough direction, that if whittled away to a plan can still be effectively executed. We identify the personal strengths of each student on its own merit and encouraged self -exploration and expression.' %}
 
