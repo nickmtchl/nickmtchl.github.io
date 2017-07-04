@@ -1,5 +1,5 @@
 ---
-layout 										: work_event_layout
+layout 										: coming_soon
 title 										: "Noisy <br />Burger"
 
 data-galleryList					: "noisyburger-gallery"

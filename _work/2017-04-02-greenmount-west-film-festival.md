@@ -1,5 +1,5 @@
 ---
-layout 						: work_film_layout
+layout 						: coming_soon
 title 						: "Greenmount West Film Festival"
 
 data-creditList 	: "mervo-credits"

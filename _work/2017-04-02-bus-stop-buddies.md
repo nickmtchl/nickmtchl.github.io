@@ -1,5 +1,5 @@
 ---
-layout 						: work_film_layout
+layout 						: coming_soon
 title 						: "Bus Stop Buddies: A Short Film"
 
 film-date 				: "May 4, 2017 6:00 P.M."

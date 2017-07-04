@@ -1,5 +1,5 @@
 ---
-layout 							: work_video_layout
+layout 							: coming_soon
 title 							: "Mervo <br />Tenants"
 
 data-creditList 		: "mervo-credits"
