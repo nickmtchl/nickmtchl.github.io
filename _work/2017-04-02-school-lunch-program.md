@@ -1,7 +1,12 @@
 ---
-layout 						: coming_soon
-title 						: "School Lunch <br />Program"
+[//]: # (Meta Info)
+layout 					: coming_soon
+title 					: "School Lunch Program"
 
-work-description 	: "a pop up restaurant designed and executed with students at Mervo High School"
-work-thumbnail		: "/img/thumbnail-school-lunch-program.png"
+[//]: # (Project Info)
+project-hero 			: /img/hero-bus-stop-buddies.png
+
+[//]: # (Slide Info)
+slide-description 		: "A community initiative in Greenmount West where adults stand with elementary youth each morning in an effort to provide a positive start to their days."
+---
 ---

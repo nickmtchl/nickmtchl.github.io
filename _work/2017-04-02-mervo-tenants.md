@@ -1,40 +1,35 @@
 ---
-layout 							: coming_soon
-title 							: "Mervo <br />Tenants"
+[//]: # (Meta Info)
+layout 					: project_layout
+title 					: "Mervo <br />Tenants"
 
+[//]: # (Project Info)
+project-hero-icon		: /img/logo-big-mervo.png
+project-title 			: "noisy tenants &amp; <br/> mergenthaler vocational <br/> technical high school"
+project-subtitle 		: "building community in local high schools"
+
+[//]: # (Slide Info)
+slide-template 			: "slide1"
+slide-bg 				: "/img/bg.jpg"
+slide-img 				: "/img/img_mervotenants.png"
+slide-description 		: "Connecting with Students from Local Schools"
+
+[//]: # (Misc Settings)
 data-creditList 		: "mervo-credits"
-data-galleryList 		: "mervo-gallery"
 
-project-hero 				: /img/mervo-hero.png
-
-slide-img 					: "/img/mervotenants.png"
-slide-featured 			: "yes"
-slide-featured-rank : "3"
-slide-template 			: "slide2"
-
-video-url 					: "https://player.vimeo.com/video/163042727?api=1"
-
-work-description 		: "Connecting with Students from Local Schools"
-work-thumbnail			: "/img/thumbnail-mervo-tenants.png"
 ---
 
 <div class="template_wrapper">
-	<div class="template_wrapper_inner">
-	{% include value.html value-icon='/img/logo-noisy-x-mervo.png' value-icon-width='150' value-title='Noisy Tenants &amp; <br/>Mervo High School' value-text='text here' %}
 
-	{% include value.html value-icon="/img/process-icon.png" value-icon-width='50' value-title='Our Process' value-text='We encourage unique collaborations and well thought out plans for every project that involves our personal and intensive methods of brainstorming, problem solving, and interpersonal challenges. We do not discard variations or difference in approach based on grandness or being unorthodox. Every task within the process takes thorough direction, that if whittled away to a plan can still be effectively executed. We identify the personal strengths of each student on its own merit and encouraged self-exploration and expression.' %}
+	<!-- Video Content Block -->
+	{% include content-block-video.html video-content-url="https://player.vimeo.com/video/226954330?api=1" video-content-image="/img/mervo-video-img.jpg" video-content-title="our process" video-content-text="Encouraged collaboration, intensive brainstorming, problem solving. talked through ideas, didnt discard them based on grandness or being unorthodex. talked it though wittled away to a plan that could be executed. found strengths of each student and captilized on it. encouraged exploration and stretching ones self." %}
 
-	{% include value.html value-icon='/img/approach-icon.png' value-icon-width='50' value-title='Our Approach' value-text='Honesty and authenticity matters. We get to personally know each student. Being flexible and accountable is important for the process to work! Even more important is the ability to listen intentionally and receive information with interest for direction and accomplishment. While allowing students to lead their own explorations, there is a processing of feelings that is uplifting and rewarding as an example of success! Be that example!' %}
+	<!-- Testimonial Block -->
+	{% include content-block-testimonial.html data-testimonialList='mervo-testimonials' testimonial-title='c/o 2017 Mervo Tenants' %}
 
-	{% include value.html value-icon='/img/results-icon.png' value-icon-width='50' value-title='Results' value-text='
-	' %}
-	</div>
+	<!-- Special Thanks -->
+	{% include credits.html %}	
 </div>
-
-{% include testimonial-option.html data-testimonialList='mervo-testimonials' testimonial-title='c/o 2017 Mervo Tenants' testimonial-textcolor='#fff' testimonial-bgcolor='#e44d4e'%}
-
-{% include credits.html %}
-{% include gallery.html %}
 
 
 
