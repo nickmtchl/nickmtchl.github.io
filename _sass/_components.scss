@@ -452,11 +452,10 @@ a.link:hover {
 .home_fixed {
   font-size: 18px;
   position: fixed;
-  bottom: 125px;
+  bottom: 15px;
   left: 20px;
 
   @include tablet {
-    bottom: 15px;
     left: 60px;
   }
 }
@@ -631,7 +630,11 @@ a.visited:visited {
 .film_item img {
   width: 100%;
   margin-bottom: 25px;
-  height: 450px;
+  height: auto;
+
+  @include tablet {
+    height: 450px;
+  }
 
   @include desktop {
     height: 550px;
