@@ -16,10 +16,14 @@
 .site_header {
 	background: black;
 	height: 50px;
-	padding: 0 20px;
+	padding: 0 10px;
 	position: relative;
 	z-index: 203;
+	width: 100%;
 
+	@include palm {
+		padding: 0 20px;
+	}
 	@include tablet {
 		padding: 0 50px;
 	}

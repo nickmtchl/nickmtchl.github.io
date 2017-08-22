@@ -7,10 +7,14 @@
 	background-color: #000;
 }
 .slide_bg {
-	background-size: cover;
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
 	transition: height 999999s;
+
+	@include palm {
+		background-size: cover;
+	}
 }
 .wrap_my_slide {
 	margin: 0 auto;
@@ -140,8 +144,11 @@
 	margin-bottom: 100px;
 }
 .content_slider .slide_bg {
-	height: 550px !important;
+	height: 250px !important;
 
+	@include palm {
+		height: 550px !important;		
+	}
 	@include tv {
 		height: 650px !important;
 	}
