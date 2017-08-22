@@ -124,6 +124,7 @@ a.link:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100vh;
+  transition: height 999999s;
 }
 .noisy_hero_icon {
   background-size: cover;
@@ -134,6 +135,7 @@ a.link:hover {
   background-position: left top;
   position: absolute;
   overflow-x: hidden;
+  transition: height 999999s;
 
   @include tablet {
     right: 0px;
