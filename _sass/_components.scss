@@ -406,9 +406,13 @@ a.link:hover {
 }
 .subtitle_project {
   color: #000;
-  font-size: 44px;
+  font-size: 35px;
   margin-top: 35px;
   margin-left: 10px;
+
+  @include small {
+    font-size: 40px;
+  }
 
   @include palm {
     font-size: 60px;
