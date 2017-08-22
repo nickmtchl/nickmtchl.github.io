@@ -107,13 +107,13 @@ $(document).ready(function(){
   //   }
   // });
   var options = {
-    "animate": true,
-    "patternWidth": 10,
-    "patternHeight": 10,
-    "grainOpacity": 0.05,
-    "grainDensity": 10,
-    "grainWidth": 10,
-    "grainHeight": 1
+  "animate": true,
+  "patternWidth": 350.4,
+  "patternHeight": 500,
+  "grainOpacity": 0.17,
+  "grainDensity": 1.5,
+  "grainWidth": 1,
+  "grainHeight": 1
   }
   grained("#noise-filter", options);
 
