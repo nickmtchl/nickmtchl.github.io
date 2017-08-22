@@ -7,14 +7,10 @@
 	background-color: #000;
 }
 .slide_bg {
-	background-size: contain;
+	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	transition: height 999999s;
-
-	@include palm {
-		background-size: cover;
-	}
 }
 .wrap_my_slide {
 	margin: 0 auto;
