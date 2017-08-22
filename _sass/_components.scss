@@ -136,13 +136,12 @@ a.link:hover {
   overflow-x: hidden;
 
   @include tablet {
-    right: -300px;
-    width: 80%;
+    right: 0px;
+    width: 60%;
   }
 
   @include laptop {
     width: 50%;
-    right: -100px;
   }
 }
 .hero-bg {
@@ -326,12 +325,17 @@ a.link:hover {
 
 /* Section Title */
 .section_title {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 58px;
   text-transform: uppercase;
   margin-bottom: 50px;
-  width: 45%;
+  width: 75%;
   max-width: 390px;
+
+  @include palm {
+    font-size: 60px;
+    width: 45%;
+  }
 
   @include tablet {
     margin-left: 25px;
@@ -411,7 +415,7 @@ a.link:hover {
   margin-left: 10px;
 
   @include small {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   @include palm {
@@ -490,12 +494,16 @@ a.link:hover {
 
 /* View More Work */
 .viewwork_title {
-  font-size: 60px;
-  line-height: 58px;
+  font-size: 50px;
+  line-height: 55px;
   position: relative;
   z-index: 800;
   width: 55%;
 
+  @include palm {
+    font-size: 60px;
+    line-height: 58px;
+  }
   @include tablet {
     float: left;
     width: 43%;  
@@ -665,9 +673,14 @@ a.visited:visited {
   }
 }
 .film_title {
-  font-size: 60px;
-  line-height: 58px;
+  font-size: 50px;
+  line-height: 55px;
   text-transform: uppercase;
+
+  @include palm {
+    font-size: 60px;
+    line-height: 58px;
+  }
 }
 .film_item_text {
   @include tablet {
@@ -720,10 +733,12 @@ a.visited:visited {
 /* Video Content Block */
 .content_title {
   margin-bottom: 25px;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 58px;
   text-transform: uppercase;
-
+  @include small {
+    font-size: 60px;
+  }
   @include palm {
     width: 65%;
   }
