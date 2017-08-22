@@ -53,6 +53,10 @@
 	height: 50px; 
 	position: relative; 
 	width: 100px;
+
+	@include palm {
+		width: 50px;
+	}
 }
 .menuButton { 
 	background: transparent !important;
