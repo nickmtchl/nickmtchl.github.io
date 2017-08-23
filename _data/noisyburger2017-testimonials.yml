@@ -9,21 +9,26 @@
   copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
 
 - name       : "Jatira"
-  thumbnail  : "/img/testimonial-3.png" 
+  thumbnail  : "/img/jatira.png" 
   class      : "c/o 2017"
   copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
 
 - name       : "Tajah"
-  thumbnail  : "/img/testimonial-1.png" 
+  thumbnail  : "/img/tajah.png" 
   class      : "c/o 2017"
   copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
 
 - name       : "J'mere"
-  thumbnail  : "/img/testimonial-2.png" 
+  thumbnail  : "/img/jmere.png" 
   class      : "c/o 2017"
   copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
 
 - name       : "Malik"
-  thumbnail  : "/img/testimonial-2.png" 
+  thumbnail  : "/img/malik.png" 
+  class      : "c/o 2017"
+  copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
+
+- name       : "Kennedi"
+  thumbnail  : "/img/kennedi.png" 
   class      : "c/o 2017"
   copy       : "A quick blurb about the student, an insight into what the contributed to the overall"
