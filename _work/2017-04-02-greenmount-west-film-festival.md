@@ -10,7 +10,7 @@ project-subtitle 		: "a collection of films by local film makers"
 
 [//]: # (Slide Info)
 slide-template 			: "slide1"
-slide-bg 				: "/img/bg_2.jpg"
+slide-bg 				: "/img/bg_gwff.jpg"
 slide-img 				: "/img/img_filmfestival.png"
 slide-description 		: "a night of fundraising around film"
 ---

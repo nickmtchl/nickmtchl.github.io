@@ -10,7 +10,7 @@ project-subtitle 		: "building community in local high schools"
 
 [//]: # (Slide Info)
 slide-template 			: "slide1"
-slide-bg 				: "/img/bg.jpg"
+slide-bg 				: "/img/bg_mervo.jpg"
 slide-img 				: "/img/img_mervotenants.png"
 slide-description 		: "Connecting with Students from Local Schools"
 
