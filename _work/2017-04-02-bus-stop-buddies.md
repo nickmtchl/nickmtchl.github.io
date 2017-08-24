@@ -1,12 +1,16 @@
 ---
 [//]: # (Meta Info)
-layout 					: coming_soon
-title 					: "Bus Stop Buddies: A Short Film"
+layout 					: project_layout
+title 					: "Bus Stop Buddies"
 
 [//]: # (Project Info)
-project-hero 			: /img/hero-bus-stop-buddies.png
+project-hero-icon 		: "/img/logo-big-greenmount-west.png"
+project-title 			: "bus stop buddies"
+project-subtitle 		: "a collection of films by local film makers"
 
 [//]: # (Slide Info)
-slide-description 		: "A community initiative in Greenmount West where adults stand with elementary youth each morning in an effort to provide a positive start to their days."
+slide-template 			: "slide1"
+slide-bg 				: "/img/bg_busstopbuddies.jpg"
+slide-img 				: "/img/bsb.png"
+slide-description 		: "Supporting locaL youth by providing a positive start to the school day"
 ---
-

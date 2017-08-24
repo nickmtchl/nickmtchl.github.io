@@ -10,9 +10,9 @@ project-subtitle 		: "Youth Owned Lemonade stand based in Greenmount West"
 
 [//]: # (Slide Info)
 slide-template 			: "slide1"
-slide-bg				: "/img/bg_noisyburger.jpg"
-slide-img 				: "/img/noisy_burger.png"
-slide-description 		: "a pop up restaurant designed and executed with students at Mervo High School"
+slide-bg				: "/img/bg_noisylemonade.jpg"
+slide-img 				: "/img/noisy_lemonade.png"
+slide-description 		: "a lemonade stand owned and operated by youth in greenmount west"
 
 [//]: # (Misc Settings)
 
