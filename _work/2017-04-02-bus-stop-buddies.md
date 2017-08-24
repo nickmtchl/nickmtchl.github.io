@@ -4,7 +4,7 @@ layout 					: project_layout
 title 					: "Bus Stop Buddies"
 
 [//]: # (Project Info)
-project-hero-icon 		: "/img/logo-big-greenmount-west.png"
+project-hero-icon 		: "/img/logo-big-bsb.png"
 project-title 			: "bus stop buddies"
 project-subtitle 		: "Supporting locaL youth at the start of their school day"
 
@@ -25,7 +25,7 @@ slide-description 		: "Supporting locaL youth by providing a positive start to t
 
 		content-block-image.html 
 		
-		content-image="/img/nl-menu-image.jpg" 
+		content-image="/img/bsb-menu-image.jpg" 
 		content-title="The Initiative" 
 		content-menuList="busstopbuddies-intro" 
 	%}
