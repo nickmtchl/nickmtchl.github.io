@@ -21,11 +21,18 @@ data-creditList 		: "mervo-credits"
 
 <div class="template_wrapper">
 
-	<!-- Video Content Block -->
-	{% include content-block-video.html video-content-url="https://player.vimeo.com/video/226954330?api=1" video-content-image="/img/mervo-video-img.jpg" video-content-title="our process" video-content-text="Encouraged collaboration, intensive brainstorming, problem solving. talked through ideas, didnt discard them based on grandness or being unorthodex. talked it though wittled away to a plan that could be executed. found strengths of each student and captilized on it. encouraged exploration and stretching ones self." %}
+	<!-- Image Content Block w/menu -->
+	{% include
+
+		content-block-image.html 
+		
+		content-image="/img/mervotenants-menu-image.jpg" 
+		content-title="the noisy <br>process" 
+		content-menuList="mervotenants-intro" 
+	%}
 
 	<!-- Testimonial Block -->
-	{% include content-block-testimonial.html data-testimonialList='mervo-testimonials' testimonial-title='c/o 2017 Mervo Tenants' %}
+	{% include content-block-testimonial.html data-testimonialList='mervo-testimonials' testimonial-title='Insight from c/o 2017 Mervo Tenants' %}
 
 	<!-- Special Thanks -->
 	{% include credits.html %}	
