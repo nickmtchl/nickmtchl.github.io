@@ -24,7 +24,7 @@ slide-description 		: "a pop up restaurant designed and executed with students a
 
 		content-block-image.html 
 		
-		content-image="/img/mervo-menu-image.jpg" 
+		content-image="/img/noisyburger-menu-image.jpg" 
 		content-title="The Concept" 
 		content-menuList="noisyburger-intro" 
 	%}
@@ -34,17 +34,17 @@ slide-description 		: "a pop up restaurant designed and executed with students a
 
 		content-block-image.html 
 		
-		content-image="/img/mervo-menu-image.jpg" 
+		content-image="/img/gallery-noisyburger3.png" 
 		content-title="menu" 
 		content-menuList="noisyburger-menu" 
 	%}
 
-	<!-- Slideshow -->
-	{% include 
+	<!-- Image Content Block w/menu -->
+	{% include
 
-		content-block-slider.html
-
-		content-slideList="noisyburger-slide"
+		content-block-image.html 
+		
+		content-image="/img/gallery-noisyburger5.png" 
 	%}
 
 	<!-- Testimonial Block -->
