@@ -6,7 +6,7 @@ title 					: "Mervo <br />Tenants"
 [//]: # (Project Info)
 project-hero-icon		: /img/logo-big-mervo.png
 project-title 			: "noisy tenants &amp; <br/> mergenthaler vocational <br/> technical high school"
-project-subtitle 		: "building community in local high schools"
+project-subtitle 		: "creating opportunities in local high schools"
 
 [//]: # (Slide Info)
 slide-template 			: "slide1"
