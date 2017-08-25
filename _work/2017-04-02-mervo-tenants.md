@@ -32,7 +32,7 @@ data-creditList 		: "mervo-credits"
 	%}
 
 	<!-- Testimonial Block -->
-	{% include content-block-testimonial.html data-testimonialList='mervo-testimonials' testimonial-title='Insight from c/o 2017 Mervo Tenants' %}
+	{% include content-block-testimonial.html data-testimonialList='mervo-testimonials' testimonial-title='Our students said...' %}
 
 	<!-- Special Thanks -->
 	{% include credits.html %}	
