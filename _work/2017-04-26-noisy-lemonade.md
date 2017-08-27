@@ -6,13 +6,13 @@ title 					: "Noisy <br />Lemonade"
 [//]: # (Project Info)
 project-hero-icon 		: "/img/logo-big-nl.png"
 project-title 			: "Noisy Lemonade"
-project-subtitle 		: "Youth Owned Lemonade stand based in Greenmount West"
+project-subtitle 		: "Youth Owned Lemonade stands based in Greenmount West"
 
 [//]: # (Slide Info)
 slide-template 			: "slide1"
 slide-bg				: "/img/bg_noisylemonade.jpg"
 slide-img 				: "/img/noisy_lemonade.png"
-slide-description 		: "a lemonade stand owned and operated by youth in greenmount west"
+slide-description 		: "Youth owned lemonade stands"
 
 [//]: # (Misc Settings)
 

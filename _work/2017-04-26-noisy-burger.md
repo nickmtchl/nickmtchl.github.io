@@ -53,7 +53,7 @@ slide-description 		: "a pop up restaurant designed and executed with students a
 		content-block-testimonial.html 
 
 		data-testimonialList='noisyburger2017-testimonials' 
-		testimonial-title='c/o 2017 Mervo Tenants' 
+		testimonial-title='What We Heard' 
 
 	%}
 
