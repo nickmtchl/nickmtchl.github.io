@@ -17,7 +17,15 @@ slide-description 		: "a night of fundraising around film"
 
 <div class="template_wrapper">
 	
-	<p>Greenmount West Film Festival *Greenmount West Film Festival - launching May 2018 is a collaborative project between Noisy Tenants and SVNCRWNS to... We will have 3 screenings leading up to the launch. Please take a look at short films from our most recent screening on August 10, 2017 at the Charles Theatre. </p>
+	<!-- Image Content Block w/menu -->
+	{% include
+
+		content-block-image.html 
+		
+		content-image="/img/gwff-menu-image.gif" 
+		content-title="Festival Launching <br> May 2018" 
+		content-menuList="gwff-intro" 
+	%}
 
 	<!-- Film List -->
 	{% for film in site.data.greenmount-west-films %}
