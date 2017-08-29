@@ -699,6 +699,7 @@ a.visited:visited {
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+
   @include palm {
     background-size: cover;
     height: 450px;
@@ -706,9 +707,10 @@ a.visited:visited {
   @include tablet {
     height: 550px;
   }
-  @include tv-1920 {
-    height: 600px;
+  @include laptop {
+    height: 650px;
   }
+  
 }
 
 /* Production Credits */
