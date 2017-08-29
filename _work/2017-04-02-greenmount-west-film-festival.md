@@ -23,7 +23,7 @@ slide-description 		: "a night of fundraising around film"
 		content-block-image.html 
 		
 		content-image="/img/gwff-menu-image.gif" 
-		content-title="Festival Launching <br> May 2018" 
+		content-title="Festival Launching May 2018" 
 		content-menuList="gwff-intro" 
 	%}
 
