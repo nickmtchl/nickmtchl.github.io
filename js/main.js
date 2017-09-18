@@ -29,20 +29,21 @@ $(document).ready(function(){
 	$('.nt_slider').slick({
     autoplay: true,
     autoplaySpeed: 2500,
-    arrows: false,
+    arrows: true,
     infinite: true,
     fade: true,
     speed: 500,
     dots: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    prevArrow: $('#mypreviousbutton'),
+    nextArrow: $('#mynextbutton')
 	});
 
 
-  $('.slick-play').on('click',function() {
-    // alert('hi');
-    $('.nt_slider').slick('slickNext');
-    // console.log('helllo');
-  });
+  // This adds a next button to the first slide on home page
+  // $('.slick-play').on('click',function() {
+  //   $('.nt_slider').slick('slickNext');
+  // });
 
 
   // Content Slider
@@ -99,13 +100,6 @@ $(document).ready(function(){
      $(".js-background-receiver", this).removeClass('hover');
   });
 
-
-  // Noise on Background Images 
-  // $('.slide_bg').grained({
-  //   var options = {
-  //     animate:true;
-  //   }
-  // });
   var options = {
   "animate": true,
   "patternWidth": 350.4,
