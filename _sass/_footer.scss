@@ -15,6 +15,12 @@
 	@include tv {
 		max-width: 1450px;
 	}
+
+	@include tv-1650 {
+		max-width: 1650px;
+	}
+
+	
 }
 .footer1 {
 	@include tablet {
