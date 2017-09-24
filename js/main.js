@@ -28,11 +28,11 @@ $(document).ready(function(){
 	// Slick Slider
 	$('.nt_slider').slick({
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 4500,
     arrows: true,
     infinite: true,
     fade: true,
-    speed: 500,
+    speed: 900,
     dots: true,
     cssEase: 'linear',
     prevArrow: $('#mypreviousbutton'),
