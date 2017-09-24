@@ -27,7 +27,7 @@ slide-description 		: "Supporting locaL youth by providing a positive start to t
 		
 		content-image="/img/bsb-menu-image.jpg" 
 		content-title="The Initiative" 
-		content-menuList="busstopbuddies-intro" 
+		content-text="In an effort to build relationships with youth in our community, Bus Stop Buddies is adults standing with students at the bus stop in an effort to create a positive start to that day.  Please email us if you are interested in participating!" 
 	%}
 
 

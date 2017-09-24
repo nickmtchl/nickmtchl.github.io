@@ -26,7 +26,9 @@ slide-description 		: "Youth owned lemonade stands"
 		
 		content-image="/img/nl-menu-image.jpg" 
 		content-title="The Concept" 
-		content-menuList="noisylemonade-intro" 
+		content-text="Noisy Lemonade is a social enterprise created in collaboration with Greenmount West Community Center. Noisy Lemonade serves as a platform for entrepreneurship by allowing youth to design and operate their own lemonade stands. Youth build business skills through direct application and guidance.<br/><br/>
+		Follow Noisy Tenants on Instagram, Facebook, and Twitter to learn where Lemonade Stands in the Noisy Tenants network will be located!" 
+		
 	%}
 
 

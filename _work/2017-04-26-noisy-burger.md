@@ -26,7 +26,7 @@ slide-description 		: "a pop up restaurant designed and executed with students a
 		
 		content-image="/img/noisyburger-menu-image.jpg" 
 		content-title="The Concept" 
-		content-menuList="noisyburger-intro" 
+		content-text="@NoisyBurger was developed with students in the commercial baking trade at Mergenthaler Vocational Technical High School. This project was student led and designed. Noisy Tenants guided students through all phased of the project including concept development, marketing, and operation logistics." 
 	%}
 
 	<!-- Image Content Block w/menu -->
