@@ -1,7 +1,7 @@
 ---
 layout: page_template
 title: Our Team
-permalink: /aboutus/
+permalink: /our-team/
 ---
 
 
@@ -15,7 +15,7 @@ permalink: /aboutus/
 	<div class="wrapper_30">Coming Soon.</div>
 </div>
 <div class="member_bio_img">
-	<img src="/img/students.png" />
+	<img src="/img/nick.png" />
 </div>
 </div>
 <div class="member_spacer">&nbsp;</div>
@@ -28,5 +28,5 @@ permalink: /aboutus/
 	<div class="wrapper_30">Coming Soon.</div>
 </div>
 <div class="member_bio_img">
-	<img src="/img/students.png" />
+	<img src="/img/chris.png" />
 </div>
