@@ -1,16 +1,20 @@
 ---
 [//]: # (Meta Info)
-layout 					: full_width_height
+layout 					: hero_video
 title 					: "Bus Stop Buddies"
-work_hover_img			: /img/hero-busstopbuddies.png
-hero_img				: /img/hero-noisyburger-v3.png
 
-project-title 			: "Bus Stop Buddies"
+[//]: # (Background Video)
+video_poster			: /img/hero-busstopbuddies-2.png
+video 					: /video/bsb.mp4
+
+[//]: # (Background for Work Page)
+work_hover_img			: /img/hero-busstopbuddies.png
+
 ---
 <div class="single_post_wrapper">
-    {% include single_post_meta.html
+    {% include components/single_post_meta.html
         title="Bus Stop<br/>Buddies"
-        text="Adults stand with youth in the neighborhood in an effort to provide a safe and positive start to their days."
+        text="<p>Bus Stop Buddies began as an effort to ensure that students in Greenmount West have a positive start to their school day. On too many occasions, the bus did not arrive at all and adults were able to escort youth across busy North Avenue to school. Today, the fun at the stop continues and we’ve established a bus tracking system to hold city schools accountable for the lack of reliable transportation for youth.</p>"
     %}
-    {% include busstoptracker.html %}
+    {% include components/busstoptracker.html %}
 </div>

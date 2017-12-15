@@ -1,0 +1,464 @@
+// About
+
+// - Masthead
+.nt_hero_bg {
+    @extend %background-image;
+    background-attachment: fixed;
+    background-image: url('/img/hero_1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+
+    @include laptop {
+        height: calc(90vh - 88px);
+    }
+}
+// Background Image Change on Scroll
+.nt_hero_bg.scrolled{
+    background-image: url('/img/bg_mervo.jpg');
+}
+.nt_hero_bg.scrolled-2{
+    background-image: url('/img/hero-busstopbuddies-1.png');
+}
+.nt_hero_bg.scrolled-3{
+    background-image: url('/img/hero-busstopbuddies-5.png');
+}
+.nt_hero_bg.scrolled-4{
+    background-image: url('/img/hero-busstopbuddies-3.png');
+}
+.nt_hero_bg.scrolled-5{
+    background-image: url('/img/hero-busstopbuddies-2.png');
+}
+.nt_hero_bg.scrolled-6{
+    background-image: url('/img/hero-busstopbuddies-4.png') ;
+}
+.nt_hero_bg.scrolled-7{
+    background-image: url('/img/hero-busstopbuddies-6.png');
+}
+.nt_hero_bg.scrolled-8{
+    background-image: url('/img/hero-busstopbuddies-3.png');
+}
+.nt_hero_bg.scrolled-9{
+    background-image: url('/img/hero-busstopbuddies-2.png') ;
+}
+.nt_hero_bg.scrolled-10{
+    background-image: url('/img/hero-busstopbuddies-5.png');
+}
+
+.about_hero_text {
+    font-size: 34px;
+    line-height:2;
+    text-align: center;
+
+    @include palm {
+        font-size: 50px;
+    }
+
+    @include tablet {
+        font-size: 70px;
+    }
+
+    @include desktop {
+        font-size: 85px;
+        line-height: 1.5;
+        width: 75%;
+    }
+
+    .hero_text_italic {
+        font-family: $font-italic;
+        font-weight: normal;
+    }
+    .hero_text_bold {
+        font-family: $oldoriginals;
+        font-size: 28px;
+        font-weight: normal;
+
+        @include palm {
+            font-size: 50px;
+        }
+        @include tablet {
+            font-size: 70px;
+        }
+    }
+}
+.nt_scroll {
+    bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    text-transform: initial;
+}
+
+// Social Entrepreneurship
+.about_bg_white {
+    background: $white;
+    color: $black;
+}
+.house_rules_section {
+    @include desktop {
+        width: 50%;
+    }
+}
+.nt_about_wrapper {
+    padding: 50px 20px;
+    margin: 0 auto;
+
+    @include palm  {
+        padding: 50px 0;
+        max-width: 480px;
+    }
+    @include tablet {
+        max-width: 700px;
+    }
+    @include desktop {
+        max-width: 900px;
+    }
+    @include widescreen {
+        max-width: 1100px;
+    }
+    @include tv {
+        max-width: 1300px;
+    }
+
+
+    .about_content {
+        // @include desktop {
+        //     width: 65%;
+        // }
+
+        .about_header {
+            font-family: $handoriginals;
+            font-size: 22px;
+            font-weight: normal;
+            line-height: 2;
+            padding-bottom: 25px;
+            text-align: center;
+
+            @include small {
+                font-size: 26px;
+            }
+
+            @include palm {
+                font-size: 32px;
+            }
+
+            @include tablet {
+                font-size: 48px;
+                line-height: 85px;
+            }
+            @include desktop {
+                font-size: 30px;
+                line-height: 2.5;
+                text-align: left;
+                max-width: 550px;
+                width: 45%;
+            }
+            @include widescreen {
+                font-size: 42px;
+                line-height: 2.5;
+                width: 50%;
+            }
+
+        }
+        .about_red {
+            color: $red;
+        }
+        .about_quote {
+            @include desktop {
+                width: 50%;
+            }
+            @include widescreen {
+                width: 40%;
+            }
+        }
+        .about_text {
+            font-family: $font-italic;
+            font-size: 22px;
+            font-weight: normal;
+            line-height: 1.5;
+            text-transform: initial;
+
+            @include small {
+                padding: 10px 25px;
+            }
+
+            @include tablet {
+                font-size: 28px;
+                line-height: 38px;
+            }
+
+            @include desktop {
+                font-size: 22px;
+                line-height: 1.5;
+                padding: 0;
+            }
+        }
+        .about_name {
+            font-family: $font-italic;
+            font-weight: normal;
+            padding-top: 40px;
+            text-align: left;
+            text-transform: initial;
+
+            @include small {
+                padding: 40px 0 0 25px;
+            }
+
+            @include desktop {
+                padding: 25px 25px 0 0;
+                text-align: right;
+            }
+        }
+    }
+}
+.about_film {
+    // margin: 75px 0 150px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+
+    @include desktop {
+        width: 30%;
+
+    }
+
+    .video_btn_wrapper {
+
+        // left: 50%;
+        // left: 0;
+        // right: 0;
+        // position: absolute;
+        // top: 35%;
+
+        .about_playbtn_wrapper {
+            position: relative;
+
+            .about_play {
+                @extend .play;
+
+                border: 6px solid;
+
+                left: auto;
+                position: relative;
+                right: auto;
+                top: auto;
+
+                height: 90px;
+                width: 90px;
+
+                &:after {
+                    position: absolute;
+                    content: "";
+                    /* Centering */
+                    top: 50%;
+                    margin-top: -15px;
+                    left: 50%;
+                    margin-left:  -8px;
+                    /* CSS Triangle */
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 15px 0 15px 20px;
+                    border-color: transparent transparent transparent #fff;
+                }
+                &:hover {
+                    background: $red !important;
+                }
+            }
+        }
+        .video_text {
+            font-family: $font-italic;
+            font-weight: normal;
+            padding-top: 30px;
+            text-align: center;
+            text-transform: initial;
+        }
+    }
+}
+.about_video_overlay {
+    top: 0;
+    background: rgba(0,0,0,0.9) !important;
+}
+
+.about_section_hero {
+    @extend %background-image;
+    height: 50vh;
+
+    .about_section_text {
+        font-family: $handoriginals;
+        font-size: 30px;
+        line-height: 2;
+        text-align: center;
+
+        @include palm {
+            font-size: 34px;
+        }
+
+        @include tablet {
+            font-size: 50px;
+        }
+
+        @include laptop {
+            font-size: 60px;
+            width: 50%;
+        }
+    }
+}
+
+.about_section_header {
+    font-family: $handoriginals;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    text-align: center;
+
+    @include palm {
+        font-size: 36px;
+    }
+
+    @include tablet {
+        font-size: 48px;
+    }
+}
+.house_rules_wrapper {
+    padding: 50px 0;
+}
+.house_rules {
+    font-family: $oldoriginals;
+    font-size: 16px;
+    line-height: 2.4;
+    text-align: center;
+
+    @include palm {
+        font-size: 22px;
+    }
+
+    @include tablet {
+        font-size: 28px;
+        line-height: 2;
+    }
+
+    li {
+
+        font-weight: normal;
+        &:nth-child(odd) {
+            color: $red;
+        }
+    }
+}
+.about_bg_offwhite {
+    background: #F8F8F8;
+}
+
+// Partners
+.partner_title_wrapper {
+    width: 100%;
+    text-align: center;
+
+    @include desktop {
+        width: 50%;
+    }
+}
+.partners_wrapper {
+
+    @include tablet {
+        width: 70%;
+    }
+    @include desktop {
+        width: 100%;
+    }
+}
+.partners_title {
+    color: $black;
+    font-family: $handoriginals;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 2;
+    padding-bottom: 30px;
+
+    @include palm {
+        font-size: 32px;
+    }
+
+    @include tablet {
+        font-size: 38px;
+    }
+
+    @include laptop {
+        font-size: 55px;
+    }
+    @include desktop {
+        font-size: 40px;
+    }
+}
+.partners {
+    border-top: 1px solid $black;
+    padding: 50px 5px;
+    width: 100%;
+
+    @include palm {
+        padding: 50px 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    @include desktop {
+        border-top: 0;
+        border-left: 1px solid $black;
+        padding: 40px 0 40px 70px;
+        width: 40%;
+    }
+}
+.partner_block {
+    position: relative;
+    @extend .clearfix;
+    padding-bottom: 15px;
+
+    .partner_block_left {
+        float: left;
+        width: 70%;
+
+        img {
+            width: 100%;
+        }
+    }
+    .partner_block_right {
+        float: right;
+    }
+}
+.openworks_logo {
+    padding-bottom: 20px;
+
+    @include tablet {
+        padding: 7px 5px 15px 0;
+    }
+}
+.globalair_logo {
+    padding-right: 10px;
+    padding-bottom: 15px;
+
+    @include palm {
+        padding-right: 20px;
+    }
+    @include tablet {
+        padding: 0 10px 10px 0;
+    }
+
+}
+.gwca_logo {
+    padding-right: 20px;
+
+    @include tablet {
+        padding: 0 20px 0 0;
+    }
+
+}
+
+.newsletter_wrapper {
+    @extend %background-image;
+    position: relative;
+}
