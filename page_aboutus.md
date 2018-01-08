@@ -5,7 +5,7 @@ permalink: /about/
 
 [//]: #Hero image
 hero_bg: /img/hero_1.jpg
-section_bg: /img/gwbg@2x_red.jpg
+section_bg: /img/greenmount_west_bg_aboutv2.jpg
 newsletter_bg: /img/emailbg.png
 
 [//]: #Video
@@ -48,11 +48,8 @@ video: /video/monuments.mp4
 </div>
 
 
-<!-- <div class="about_section_hero" style="background-image: url('{{ page.section_bg }}');"> -->
-<div class="about_section_hero">
-	<video autoplay loop id="video-background-about" muted plays-inline poster="{{ page.video_poster }}">
-		<source src="{{ page.video }}" type="video/mp4">
-	</video>
+<div class="about_section_hero" style="background-image: url('{{ page.section_bg }}');">
+
 	<div class="frow centered">
 		<div class="about_film">
 
@@ -146,6 +143,9 @@ video: /video/monuments.mp4
 				margin: 0 auto;
 				width: 100%;
 			}
+			#mc_embed_signup .mc-field-group input {
+				color: black;
+			}
 			@media screen and (max-width: 500px) {
 				#mc_embed_signup {
 					max-width: 480px;
@@ -156,10 +156,6 @@ video: /video/monuments.mp4
 				#mc_embed_signup {
 					max-width: 550px;
 				}
-
-				/*#mc_embed_signup h2 {
-					font-size: 40px;
-				}*/
 			}
 
 			@media screen and (min-width: 1024px) {
@@ -193,9 +189,6 @@ video: /video/monuments.mp4
 				@include tablet {
 					width: 45%;
 				}
-			}
-			#mc_embed_signup #email {
-				/*padding-right: 50px;*/
 			}
 			#mc_embed_signup #first-name {
 				float: right;
