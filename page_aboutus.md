@@ -1,17 +1,15 @@
 ---
-layout: full-page
 title: About
-permalink: /about/
-
-[//]: #Hero image
-hero_bg: /img/hero_1.jpg
-section_bg: /img/greenmount_west_bg_aboutv2.jpg
-newsletter_bg: /img/emailbg.png
-
-[//]: #Video
-video_poster: /img/gwbg@2x_red.jpg
-video: /video/monuments.mp4
+permalink: "/about/"
+layout: full-page
+'["//"]': 
+hero_bg: "/img/hero_1.jpg"
+section_bg: "/img/greenmount_west_bg_aboutv2.jpg"
+newsletter_bg: "/img/emailbg.png"
+video_poster: "/img/gwbg@2x_red.jpg"
+video: "/video/monuments.mp4"
 ---
+
 <div class="nt_hero_bg">
 	<div class="frow centered">
 		<div class="about_hero_text">
