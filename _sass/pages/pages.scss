@@ -1,0 +1,41 @@
+// Home
+.red_span {
+	color: $red;
+}
+.hero_img_home {
+	@extend %background-image;
+}
+
+// Thank You
+.thank_you_wrapper {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+// Docs
+.docs_item {
+	border: 1px solid #000;
+	padding: 15px;
+	width: 75%;
+	margin-bottom: 30px;
+}
+.docs_list {
+	list-style: none;
+	font-size: 14px;
+}
+
+// Coming Soon
+.coming_soon {
+    height: calc(20vh - 63px);
+    padding: 0 20px;
+
+    @include tablet {
+        height: calc(20vh - 88px);
+        padding: 0 30px;
+    }
+    @include laptop {
+        height: calc(50vh - 38px);
+        padding: 0 50px;
+    }
+}

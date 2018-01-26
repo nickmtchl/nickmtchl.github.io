@@ -1,0 +1,43 @@
+.page_title {
+	font-size: 32px;
+}
+.page_title::after {
+	content: '';
+	width: 50px;
+	border-bottom: 1px solid;
+	display: block;
+	padding-bottom: 10px;
+}
+.page_title_wrapper {
+	padding: 0 20px;
+	margin: 40px 0 100px 0;
+}
+.default_text_med {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+
+	@include tv {
+		font-size: 17px;
+	}
+}
+.default_text_grande {
+	font-size: 36px;
+	margin-bottom: 35px;
+}
+.default_initial {
+	text-transform: initial;
+	margin-bottom: 5px;
+
+	@include tv {
+		font-size: 20px;
+	}
+}
+.default_initial a {
+	text-decoration: none;
+	color: #fff;
+}
+.default_initial a:hover {
+	color: #e44d4e;
+	border-bottom: 1px solid #e44d4e;
+}
