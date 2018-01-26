@@ -1,7 +1,7 @@
 ---
-layout: styleguide
 title: FEWD Style Guide
-permalink: /styleguide/
+permalink: "/styleguide/"
+layout: styleguide
 ---
 
 ## COLORS
