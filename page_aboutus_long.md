@@ -1,11 +1,11 @@
 ---
-title: About
+title: About-Long
 permalink: "/about-long/"
-layout: full-page
-'["//"]': 
+'"//"': 
 hero_bg: "/img/hero_1.jpg"
 section_bg: "/img/gwbg@2x.png"
 newsletter_bg: "/img/gwbg@2x.png"
+layout: full-page
 ---
 
 <div class="nt_hero_bg">
