@@ -1,19 +1,14 @@
 ---
-[//]: # (Meta Info)
-layout 					: hero_video
-title 					: "Noisy Burger"
-
-[//]: # (Background Video)
-video_poster			: /img/hero-noisyburger-1.png
-video 					: /video/nb.mp4
-
-[//]: # (Background for Work Page)
-work_hover_img			: /img/hero-noisyburger.png
-
-[//]: # (Extra Components)
-component               : press
-component_data          : noisyburger-press
+title: Noisy Burger
+'["//"]': 
+layout: hero_video
+video_poster: "/img/hero-noisyburger-1.png"
+video: "/video/nb.mp4"
+work_hover_img: "/img/hero-noisyburger.png"
+component: press
+component_data: noisyburger-press
 ---
+
 <div class="single_post_wrapper">
 {% include components/single_post_meta.html
     title="Welcome to Noisy Burger!"

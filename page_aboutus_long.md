@@ -1,13 +1,13 @@
 ---
-layout: full-page
 title: About
-permalink: /about-long/
-
-[//]: #Hero image
-hero_bg: /img/hero_1.jpg
-section_bg: /img/gwbg@2x.png
-newsletter_bg: /img/gwbg@2x.png
+permalink: "/about-long/"
+layout: full-page
+'["//"]': 
+hero_bg: "/img/hero_1.jpg"
+section_bg: "/img/gwbg@2x.png"
+newsletter_bg: "/img/gwbg@2x.png"
 ---
+
 <div class="nt_hero_bg">
 	<div class="frow centered">
 		<div class="about_hero_text">
