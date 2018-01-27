@@ -1,8 +1,7 @@
 ---
 layout: hero_bg
-
-[//]: # (Background Image)
-hero_img: /img/hero_1.jpg
+'["//"]': 
+hero_img: "/img/hero_1.jpg"
 ---
 
 <div class="frow direction-column wrap_my_slide_primary">
