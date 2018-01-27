@@ -1,5 +1,5 @@
 .bsbtracker_masthead_wrapper {
-    background-color: rgba(228,77,78,0.30);
+    background-color: rgba(228,77,78,0.60);
 
     .bsbtracker_masthead {
         padding: 50px 20px 20px;
@@ -121,4 +121,19 @@
 .bsbtracker_single {
     border-bottom: 1px solid;
     margin-bottom: 30px;
+}
+
+#tracker_archive_height {
+    @include tablet {
+        min-height: calc(100vh - 410px);
+    }
+    @include desktop {
+        min-height: calc(100vh - 420px);
+    }
+
+}
+.archive-light-log {
+    @include widescreen {
+        margin-left: 15px; 
+    }
 }
