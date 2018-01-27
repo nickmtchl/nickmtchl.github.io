@@ -1,7 +1,7 @@
 ---
-layout: our_team
 title: Our Team
-permalink: /our-team/
+permalink: "/our-team/"
+layout: our_team
 ---
 
 <!-- Member 1 + 2 -->
