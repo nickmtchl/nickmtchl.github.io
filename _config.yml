@@ -22,6 +22,9 @@ collections:
   press:
     output: false
 
+  team:
+    output: false
+
 
 
 # Extra Misc Stuff
