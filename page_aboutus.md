@@ -1,15 +1,20 @@
 ---
-title: About
-permalink: "/about/"
 layout: full-page
-'["//"]': 
-hero_bg: "/img/hero_1.jpg"
-section_bg: "/img/greenmount_west_bg_aboutv2.jpg"
-newsletter_bg: "/img/emailbg.png"
-video_poster: "/img/gwbg@2x_red.jpg"
-video: "/video/monuments.mp4"
----
+title: About
+permalink: /about/
 
+[//]: #Hero image
+hero_bg: /img/hero_1.jpg
+section_bg: /img/greenmount_west_bg_aboutv2.jpg
+newsletter_bg: /img/emailbg.png
+
+[//]: #Video
+video_poster: /img/gwbg@2x_red.jpg
+video: /video/monuments.mp4
+
+[//]: #About Video ID
+about_video_id: '201795592'
+---
 <div class="nt_hero_bg">
 	<div class="frow centered">
 		<div class="about_hero_text">
@@ -56,7 +61,7 @@ video: "/video/monuments.mp4"
 
 					<button class="html5_close"><img src="/img/close-icon.png" /></button>
 
-					<iframe id="video" src="https://player.vimeo.com/video/201795592?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe id="video" src="https://player.vimeo.com/video/{{ page.about_video_id }}?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 
