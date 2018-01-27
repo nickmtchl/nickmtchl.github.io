@@ -25,6 +25,9 @@ collections:
   team:
     output: false
 
+  bsbtracker:
+    output: false
+
 
 
 # Extra Misc Stuff

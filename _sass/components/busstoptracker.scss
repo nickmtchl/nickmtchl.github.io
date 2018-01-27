@@ -125,13 +125,13 @@
         margin: 8px 0 8px 10px;
     }
 }
-.green-light {
+.ontime-light {
     background: $tracker-green;
 }
-.yellow-light {
+.late-light {
     background: $tracker-yellow;
 }
-.red-light {
+.noshow-light {
     background: $tracker-red;
 }
 .modal-weekly-log {
