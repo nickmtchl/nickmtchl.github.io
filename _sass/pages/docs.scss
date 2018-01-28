@@ -177,6 +177,10 @@ $primary-dark: mix(#000000, $primary, 25%);
 			@include widescreen {
 				font-size: 24px;
 			}
+
+			img {
+				width: 100%;
+			}
         }
 
         @include laptop {
