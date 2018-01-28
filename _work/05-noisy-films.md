@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 [//]: # (Meta Info)
 layout 					: film
 title 					: "Noisy Films"
@@ -11,7 +12,15 @@ work_hover_img			: /img/hero-noisyfilms.jpg
 
 [//]: # Film Video ID
 film-video-id: '201795592'
+=======
+title: Noisy Films
+'["//"]': 
+layout: film
+hero_img: "/img/bigcity.png"
+work_hover_img: "/img/hero-noisyfilms.jpg"
+>>>>>>> 48980cdd7a2be841f0b4159e449161a9426a504c
 ---
+
 <div class="single_post_wrapper noisyfilms_wrapper">
 	{% 	include components/single_post_meta.html
 		title="Now Playing"
