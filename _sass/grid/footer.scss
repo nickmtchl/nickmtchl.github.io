@@ -88,9 +88,14 @@
 
 	width: 18px;
 	height: 19px;
-	display: inline-block;
-	margin: 0 0 0 10px;
-	vertical-align: middle;
+	margin: auto;
+
+	@include laptop {
+		display: inline-block;
+		margin: 0 0 0 10px;
+		vertical-align: middle;
+	}
+
 
 	&:hover {
 		background-image: url('/img/crwn_logo_animation.gif');
