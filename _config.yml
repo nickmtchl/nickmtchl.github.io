@@ -1,43 +1,65 @@
----
+# Site settings
 title: Noisy Tenants
-timezone: UTC
-collections:
-  bsbtracker:
-    title: Bsbtracker
-    output: false
-  docs:
-    title: Docs
-    output: false
-  posts:
-    title: Posts
-    output: true
-  press:
-    title: Press
-    output: false
-  team:
-    title: Team
-    output: false
-  uploads:
-    title: Uploads
-    output: true
-  work:
-    title: Work
-    output: true
-    permalink: "/work/:title/"
 email: info@noisytenants.com
-description: 'The Leasing Office - Your Community Agency
-
-'
-baseurl: ''
-url: http://nickmtchl.github.io
+description: > # this means to ignore newlines until "baseurl:"
+  The Leasing Office - Your Community Agency
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://nickmtchl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 port: 4000
 twitter_username: noisytenants
-github_username: 
+github_username:
+
+# Build settings
 markdown: kramdown
-permalink: "/post/:title/"
+permalink: /post/:title/
+
+
+collections:
+  work:
+    output: true
+    permalink: /work/:title/
+
+  press:
+    output: false
+
+  team:
+    output: false
+
+  bsbtracker:
+    output: false
+
+  docs:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "bsbtracker" # a collection in your site, in plural form
+    values:
+      week: "1"
+      week-start: "Jan 29, 2018"
+      week-end: "Feb 02, 2018"
+      day1:
+          date: "01/29"
+          status: "late"
+      day2:
+          date: "01/30"
+          status: "ontime"
+      day3:
+          date: "01/31"
+          status: "late"
+      day4:
+          date: "02/01"
+          status: "noshow"
+      day5:
+          date: "02/02"
+          status: "ontime"
+
+# Extra Misc Stuff
 theme: minima
 gems:
-- jekyll-feed
+  - jekyll-feed
 exclude:
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
