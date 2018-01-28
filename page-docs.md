@@ -1,5 +1,6 @@
 ---
-layout: docs
 title: Docs
-permalink: /docs/
+permalink: "/docs/"
+layout: docs
 ---
+

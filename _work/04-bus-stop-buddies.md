@@ -1,16 +1,12 @@
 ---
-[//]: # (Meta Info)
-layout 					: hero_video
-title 					: "Bus Stop Buddies"
-
-[//]: # (Background Video)
-video_poster			: /img/hero-busstopbuddies-2.png
-video 					: http://www.svncrwns.com/noisytenants_content/bsb.mp4
-
-[//]: # (Background for Work Page)
-work_hover_img			: /img/hero-busstopbuddies.png
-
+title: Bus Stop Buddies
+'["//"]': 
+layout: hero_video
+video_poster: "/img/hero-busstopbuddies-2.png"
+video: http://www.svncrwns.com/noisytenants_content/bsb.mp4
+work_hover_img: "/img/hero-busstopbuddies.png"
 ---
+
 <div class="single_post_wrapper">
     {% include components/single_post_meta.html
         title="Bus Stop<br/>Buddies"

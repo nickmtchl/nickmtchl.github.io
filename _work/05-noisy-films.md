@@ -1,17 +1,12 @@
 ---
-[//]: # (Meta Info)
-layout 					: film
-title 					: "Noisy Films"
-
-[//]: # (Background Image)
-hero_img				: /img/bigcity.png
-
-[//]: # (Background for Work Page)
-work_hover_img			: /img/hero-noisyfilms.jpg
-
-[//]: # Film Video ID
+title: Noisy Films
+'["//"]': 
+layout: film
+hero_img: "/img/bigcity.png"
+work_hover_img: "/img/hero-noisyfilms.jpg"
 film-video-id: '201795592'
 ---
+
 <div class="single_post_wrapper noisyfilms_wrapper">
 	{% 	include components/single_post_meta.html
 		title="Now Playing"

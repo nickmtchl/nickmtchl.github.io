@@ -1,7 +1,9 @@
 ---
+title: Tracker 1
 docs-question: To update the bus stop tracker.  The archive updates automatically.
 docs-category: tracker
 ---
+
 In siteleaf panel, Select Bsbtracker.  Add New Document.  There is a set of metadata that needs to be updated.
 
 Variables are:
