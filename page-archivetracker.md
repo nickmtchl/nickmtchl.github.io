@@ -1,14 +1,15 @@
 ---
-title: Bus Stop Tracker Archive
-permalink: "/busstoptracker/"
 layout: hero_bg
-summary: |-
-  <p>Bus Stop Buddies began as an effort to ensure that students in Greenmount West have a positive start to their school day. On too many occasions, the bus did not arrive at all and adults were able to escort youth across busy North Avenue to school. Today, the fun at the stop continues and we’ve established a bus tracking system to hold city schools accountable for the lack of reliable transportation for youth.</p>
-  <p>This tracker is updated weekly.</p>
-'["//"]': 
-hero_img: "/img/bg_tracker.jpg"
----
+title: Bus Stop Tracker Archive
+permalink: /busstoptracker/
 
+summary: "<p>Bus Stop Buddies began as an effort to ensure that students in Greenmount West have a positive start to their school day. On too many occasions, the bus did not arrive at all and adults were able to escort youth across busy North Avenue to school. Today, the fun at the stop continues and we’ve established a bus tracking system to hold city schools accountable for the lack of reliable transportation for youth.</p>
+
+<p>This tracker is updated weekly.</p>"
+
+[//]: # (Background Image)
+hero_img: /img/bg_tracker.jpg
+---
 <div class="bsbtracker_masthead_wrapper">
     <div class="bsbtracker_wrapper">
         <div class="frow justify-between">
