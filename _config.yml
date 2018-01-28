@@ -28,6 +28,9 @@ collections:
   bsbtracker:
     output: false
 
+  docs:
+    output: false
+
 
 
 # Extra Misc Stuff
