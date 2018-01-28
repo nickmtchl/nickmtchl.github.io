@@ -1,7 +1,9 @@
 ---
+title: Single Work 4
 docs-question: To add press items to Noisy Burger
 docs-category: single-work
 ---
+
 In siteleaf panel, Select Press.  Select 'New Document'.  For title, type the title of press item.
 
 Add metadata, 'publication'.
