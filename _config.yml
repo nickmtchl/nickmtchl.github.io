@@ -60,15 +60,17 @@ defaults:
           date: "02/02"
           status: "ontime"
 
-    -
-      scope:
-        path: ""
-        type: "press" # a collection in your site, in plural form
-      values:
-        publication: "The Baltimore Sun"
-        external_link: "http://www.google.com"
+  -
+    scope:
+      path: ""
+      type: "press" # a collection in your site, in plural form
+    values:
+      publication: "The Baltimore Sun"
+      external_link: "http://www.google.com"
+
 
 # Social Media
+
 
 # Extra Misc Stuff
 theme: minima

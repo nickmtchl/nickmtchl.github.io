@@ -143,15 +143,15 @@
 	height: 35px !important;
 	outline: none;
 	overflow: hidden !important;
-	position: absolute !important;
-	right: 29px !important;
+	// position: absolute !important;
+	// right: 29px !important;
 	text-indent: 200% !important;
 	top: 10px !important;
 	width: 25px !important;
 	z-index: 100 !important;
 
 	@include tablet {
-		right: 61px !important;
+		// right: 61px !important;
 	}
 }
 .overlay-data {
@@ -165,4 +165,12 @@
 	transition: opacity 0.5s;
 	-webkit-transition: opacity 0.5s;
 	visibility: visible;
+}
+
+.overlay-close-wrapper {
+	padding: 10px 30px 0 0;
+
+	@include tablet {
+		padding: 10px 59px 0 0;
+	}
 }
