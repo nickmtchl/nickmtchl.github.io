@@ -1,10 +1,11 @@
 ---
 title: Bus Stop Buddies
-'["//"]': 
 layout: hero_video
 video_poster: "/img/hero-busstopbuddies-2.png"
 video: http://www.svncrwns.com/noisytenants_content/bsb.mp4
 work_hover_img: "/img/hero-busstopbuddies.png"
+
+order: 4
 ---
 
 <div class="single_post_wrapper">
