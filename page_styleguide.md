@@ -1,7 +1,7 @@
 ---
 title: FEWD Style Guide
 permalink: "/styleguide/"
-layout: styleguide
+layout: full-page
 ---
 
 ## COLORS
