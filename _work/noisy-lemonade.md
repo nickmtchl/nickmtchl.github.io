@@ -3,7 +3,6 @@ title: Noisy Lemonade
 layout: hero_bg
 hero_img: "/img/hero-noisylemonade-v2.png"
 work_hover_img: "/img/hero-noisylemonade-v2.png"
-
 order: 2
 ---
 

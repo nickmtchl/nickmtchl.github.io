@@ -6,7 +6,6 @@ video: http://www.svncrwns.com/noisytenants_content/nb.mp4
 work_hover_img: "/img/hero-noisyburger.png"
 component: press
 component_data: noisyburger-press
-
 order: 3
 ---
 

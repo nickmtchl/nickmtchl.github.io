@@ -4,7 +4,6 @@ layout: hero_video
 video_poster: "/img/bradford.jpg"
 video: http://www.svncrwns.com/noisytenants_content/bradford.mp4
 work_hover_img: "/img/bradford.jpg"
-
 order: 1
 ---
 

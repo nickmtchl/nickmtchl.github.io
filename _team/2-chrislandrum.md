@@ -9,3 +9,4 @@ summary: Christopher Landrum is a founding partner of Noisy Tenants and communit
 twitter: http://www.twitter.com/chrislandrum_
 instagram: http://www.instagram.com/chrislandrum
 ---
+
