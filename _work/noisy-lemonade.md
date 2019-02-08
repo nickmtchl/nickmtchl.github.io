@@ -1,9 +1,10 @@
 ---
 title: Noisy Lemonade
-layout: hero_bg
+published: false
 hero_img: "/img/hero-noisylemonade-v2.png"
 work_hover_img: "/img/hero-noisylemonade-v2.png"
 order: 2
+layout: hero_bg
 ---
 
 <div class="single_post_wrapper">
