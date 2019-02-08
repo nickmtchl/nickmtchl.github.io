@@ -2,10 +2,11 @@
 title: 1 Nickmitchel
 name: Nicholas Mitchel
 image: "/img/nick.png"
-summary: Nicholas Mitchel is a founding partner of Noisy Tenants and landlord of the
-  building. Nicholas uses his creative spirit and entrepreneurial drive to create
-  noise! He believes that everyone should have opportunity for ownership. Nicholas
-  is a Baltimore Corps fellow and works directly in his community.
+summary: Inspired daily by the talent, drive, and vision of Baltimore residents, Nicholas
+  uses his strengths in relationship building and out of the box thinking to cultivate
+  unlikely partnerships. Nicholas serves on the boards of Greenmount West Community
+  Center Foundation, Station North Arts & Entertainment District, and is a Baltimore
+  Corps alum.
 twitter: http://www.twitter.com/nickmtchl
 instagram: http://www.instagram.com/nniccckk
 ---
