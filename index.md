@@ -11,6 +11,6 @@ layout: hero_bg
         Community Engagement.
     </div>
     <div class="headline2">
-        Our projects <span class="red_span">amplify community voices</span>, promote entrepreneurship, and dynamic spaces.
+        Through a creative and intentional process, our projects <span class="red_span">amplify community voices</span>, promote entrepreneurship, and dynamic spaces.
     </div>
 </div>
