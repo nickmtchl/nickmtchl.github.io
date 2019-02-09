@@ -1,6 +1,6 @@
 ---
 title: Superheroes
-video_poster: "/img/hero-busstopbuddies-2.png"
+video_poster: "/img/superherowall.jpg"
 video: 
 work_hover_img: "/img/superherowall.jpg"
 order: 4
