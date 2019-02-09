@@ -1,8 +1,8 @@
 ---
-title: Bradford
-video_poster: "/img/bradford.jpg"
+title: Light City 2018
+video_poster: "/img/hero-lightcity18.jpg"
 video: 
-work_hover_img: "/img/bradford.jpg"
+work_hover_img: "/img/hero-lightcity18.jpg"
 order: 1
 layout: hero_video
 ---
