@@ -2,7 +2,7 @@
 title: Superheroes
 video_poster: "/img/hero-busstopbuddies-2.png"
 video: http://www.svncrwns.com/hosted_content/noisytenants/bsb.mp4
-work_hover_img: "/img/hero-busstopbuddies.png"
+work_hover_img: "/img/superherowall.jpg"
 order: 4
 layout: hero_video
 ---
