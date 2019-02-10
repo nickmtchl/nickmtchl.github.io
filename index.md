@@ -11,6 +11,6 @@ layout: hero_bg
         Community Engagement.
     </div>
     <div class="headline2">
-Projects | About | Contact Us
+[Projects](/work) | [Contact Us](mailto:info@noisytenants.com)
     </div>
 </div>
