@@ -18,6 +18,6 @@ layout: film
 		film_crew_name="Noisy Tenants"
 	%}
 	{%	include components/film_summary.html
-		film_summary="Delivery is a visual exercise shot within the confines of out neighborhood"
+		film_summary=""
 	%}
 </div>
