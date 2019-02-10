@@ -11,5 +11,6 @@ layout: hero_bg
         Community Engagement.
     </div>
     <div class="headline2">
+Projects | About | Contact Us
     </div>
 </div>
