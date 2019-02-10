@@ -1,7 +1,7 @@
 ---
 title: Noisy Burger
 video_poster: "/img/hero-noisyburger-1.png"
-video: http://www.svncrwns.com/hosted_content/noisytenants/nb.mp4
+video: 
 work_hover_img: "/img/hero-noisyburger.png"
 component: press
 component_data: noisyburger-press
