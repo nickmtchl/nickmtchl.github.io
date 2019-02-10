@@ -12,6 +12,6 @@ layout: hero_video
 <div class="single_post_wrapper">
     {% include components/single_post_meta.html
         title="Welcome to Noisy Burger!"
-        text="<p>The first students launched restaurant in Baltimore, MD</p>"
+        text="<p>The first students launched restaurant in Baltimore City!</p>"
     %}
 </div>
