@@ -1,6 +1,6 @@
 ---
 title: Delivery
-hero_img: "/img/hero-delivery.jpg"
+hero_img: "/img/hero-delivery.JPG"
 work_hover_img: "/img/hero-delivery.JPG"
 film-video-id: 136211011
 order: 5
