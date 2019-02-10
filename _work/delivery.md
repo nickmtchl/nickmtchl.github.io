@@ -9,10 +9,10 @@ layout: film
 
 <div class="single_post_wrapper noisyfilms_wrapper">
 	{% 	include components/single_post_meta.html
-		title="Now Playing"
+		title="Delivery"
 	%}
 	{% 	include components/film_highlight.html
-		film_title="Delivery"
+		film_title="A Visual Exercise"
 		film_runtime="2:31"
 		film_crew_title="Directed &amp; Written By"
 		film_crew_name="Noisy Tenants"
