@@ -1,7 +1,7 @@
 ---
 title: home
 '"//"': 
-hero_img: img/hero-lightcity18.JPG
+hero_img: img/hero-ntbag.JPG
 layout: hero_bg
 ---
 
