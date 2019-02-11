@@ -11,6 +11,6 @@ layout: hero_bg
         Community Engagement.
     </div>
     <div class="headline2">
-<a href="/work">Projects</a>| <a href="/about">About Us</a> | <a href="mailto:info@noisytenants.com">Contact Us</a>
+Through a creative and intentional process, our projects amplify community voices, promote entrepreneurship, and create dynamic spaces 
     </div>
 </div>
