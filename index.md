@@ -1,7 +1,7 @@
 ---
 title: home
 '"//"': 
-hero_img: img/hero-deliverybag.jpg
+hero_img: img/hero-collage.png
 layout: hero_bg
 ---
 
