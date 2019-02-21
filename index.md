@@ -11,6 +11,6 @@ layout: hero_bg
         Community Engagement
     </div>
     <div class="headline2">
-Through unique projects that amplify community voices, promote entrepreneurship, and create dynamic spaces. 
+With unique projects that amplify community voices, promote entrepreneurship, and create dynamic spaces. 
     </div>
 </div>
