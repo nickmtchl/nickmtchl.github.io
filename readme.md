@@ -6,6 +6,9 @@ This site is built on the Jekyll framework, languages are HTML, CSS and JS.
 
 ## To run:
 
+Dont forget the git!
+
+
 Jekyll must be installed.
 
 Download this folder
