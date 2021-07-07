@@ -1,0 +1,265 @@
+/* Modal + Tracker */
+.openModal {
+    position: relative;
+}
+#openModal {
+    background: $black;
+    border: 5px solid $white;
+    margin: auto;
+    width: 85%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 400;
+    top: 0;
+    height: 430px;
+
+    @include palm {
+        width: 470px;
+        height: 550px;
+    }
+
+    @include tablet {
+        height: 500px;
+    }
+}
+.tracker-close {
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    background: transparent;
+    border: 0;
+}
+.modal-header {
+    padding: 15px 15px 10px 15px;
+
+    @include tablet {
+        padding: 15px 15px 0 15px;
+    }
+
+    .modal-title {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 0 20px;
+
+        @include palm {
+            float: left;
+            width: 60%;
+            text-align: left;
+            font-size: 20px;
+        }
+    }
+    .modal-img {
+        @include palm {
+            float: right;
+            width: 30%;
+        }
+
+        img {
+            width: 35px;
+
+            @include palm {
+                width: 100px;
+            }
+        }
+
+    }
+}
+.modal-week {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 24px;
+    width: 65%;
+    max-width: 170px;
+    line-height: 1;
+
+    @include palm {
+        font-size: 54px;
+        width: 80%;
+        max-width: none;
+    }
+}
+.modal-status {
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+
+    @include palm {
+        width: 245px;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 5px;
+        font-size:13px;
+
+        @include palm {
+            font-size: 16px;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.light {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.light-log {
+    @extend .light;
+    margin: 4px 0 8px 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid $white;
+    display: inline-block;
+    vertical-align: top;
+
+    @include palm {
+        margin: 8px 0 8px 10px;
+    }
+}
+.ontime-light {
+    background: $tracker-green;
+}
+.late-light {
+    background: $tracker-yellow;
+}
+.noshow-light {
+    background: $tracker-red;
+}
+.modal-weekly-log {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+
+    ul li {
+        font-size: 13px;
+
+        @include palm {
+            font-size: 16px;
+        }
+        @include tablet {
+            display: inline-block;
+            margin: 10px 13px;
+            width: 60px;
+        }
+    }
+}
+.modal-share {
+    text-align: left;
+    font-size: 12px;
+
+    @include palm {
+        font-size: 18px;
+    }
+
+    @include tablet {
+        font-size: 20px;
+    }
+
+    img {
+        display: inline;
+
+        @include tablet {
+            display: inline-block !important;
+        }
+    }
+}
+a.twitter-share {
+    text-transform: initial;
+    color: $white;
+    text-decoration: none;
+    font-size: 13px;
+    &:hover {
+        color: $red;
+    }
+
+    @include palm {
+        font-size: 16px;
+    }
+}
+.tracker_wrapper {
+    margin: 40px 0;
+
+    a {
+        padding: 6px 12px;
+        background: $white;
+        color: $black;
+        text-decoration: none;
+    }
+}
+.modal-overlay {
+    z-index: 390;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+
+    &.close {
+        display: none;
+    }
+}
+.modal-close {
+  width: 20px;
+  fill: white;
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+
+.modal-close:hover {
+  fill: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+.modal-show {
+  opacity: 1;
+}
+
+// This is included in lower section of tracker
+.lower_tracker_grp {
+    padding: 10px 15px;
+
+    @include tablet {
+        padding: 15px;
+    }
+}
+.archive_link {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-size: 12px;
+    text-transform: lowercase;
+    font-weight: normal;
+
+    @include tablet {
+        font-size: 14px;
+    }
+
+    &:hover {
+        color: $red;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 2px 5px;
+
+        @include tablet {
+            padding: 3px 10px 5px;
+        }
+
+        &:hover {
+            color: $red;
+        }
+    }
+}

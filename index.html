@@ -1,46 +1,15 @@
 ---
 layout: hero_bg
---- 
-<!-- Slider -->
-<div class="nt_slider clearfix">
+'["//"]': 
+hero_img: "/img/hero_1.jpg"
+---
 
-  {% assign features = site.work | where:"featured", "yes" | sort:"featured-rank" %}
-  {% for work in features limit: 3 %}
-  
-  {% if work.slide == "slide1" %}
-  <!-- Slide 1 -->
-  <div class="slide">
-
-    <div class="slide_img_wrapper">
-      <img src="{{ work.img-path }}" class="slide_img" />  
+<div class="frow direction-column wrap_my_slide_primary">
+    <div class="headline1">
+        Creating <br/>
+        Hope through Opportunity.
     </div>
-    <div class="headline">
-      {{ work.description }}
+    <div class="headline2">
+        <span class="red_span">We</span> build bridges between businesses and youth in our <span class="red_span">community</span> through <span class="red_span">projects</span> that close the gap between sustainability and need.
     </div>
-    {% include btn_30.html btn_color='on_brand_dark' url-location='work/noisy-burger' url-text="read more" %}
-  
-  </div><!-- #Slide 1 -->
-  {% endif %}
-
-  {% if work.slide == "slide2" %}
-  <!-- Slide 2 -->
-  <div class="slide">
-    <div class="headline">{{ work.date | date: '%B %d, %Y' }} @ <div class="mobile-block">{{ work.location }}</div></div>
-    <div class="slide_img_wrapper">
-      <img src="{{ work.img-path }}" class="slide2_img" />  
-    </div>
-    <div class="headline">
-      {{ work.description }}
-    </div>
-    {% include btn_30.html btn_color='on_brand_dark' url-location='work/revenge-of-emmett-till' url-text="read more" %}
-  </div><!-- #Slide2 -->
-  {% endif%}
-
-  {% endfor %}
-
-</div><!-- nt-slider -->
-  
-
-
-    
-    
+</div>

@@ -1,0 +1,21 @@
+<div class="video-overlay clearfix">
+    <div class="video-container">
+
+        <button class="html5_close"><img src="/img/close-icon.png" /></button>
+
+        <!-- Embedded video -->
+        <iframe id="video" src="https://player.vimeo.com/video/{{ page.film-video-id }}?api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="main_play_wrapper clearfix" style="background-image:url('{{ page.hero_img }}')">
+    <div class="frow justify-between">
+        {% if page.layout == "film" %}
+            {{ content }}
+        {% endif %}
+
+        <div class="play-btn-wrapper">
+            <span class="play play-position"></span>
+        </div>
+    </div>
+</div>

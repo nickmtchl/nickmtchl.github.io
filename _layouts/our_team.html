@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    {% include layouts/head.html %}
+
+    <body>
+
+      	{% include components/preloader.html %}
+
+        <div class="container clear">
+
+        	{% include layouts/header.html %}
+
+          	{{ content }}
+
+        </div> <!-- .container -->
+
+        {% include layouts/footer.html %}
+
+    </body>
+
+</html>

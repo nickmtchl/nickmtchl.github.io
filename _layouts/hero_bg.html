@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include layouts/head.html %}
 
   <body>
-  	<!-- Preloader -->
-  	<div id="preloader"></div>
-  	
-    <div class="container clear">
-      <div class="noisy_hero" style="height: 100vh;">
-    		{% include header.html %}
-      	
-      	{{ content }}
-      </div><!-- .hero-bg -->
-    </div> <!-- .container -->
 
-    {% include footer.html %}
+  	{% include components/preloader.html %}
+
+    <div class="container clear">
+
+    	{% include layouts/header.html %}
+
+        {% unless page.title == "Work" or page.url == "/" or page.title == "Bus Stop Tracker Archive" %}
+            {% include components/return-work.html %}
+        {% endunless %}
+
+        <div class="hero_img_home" style="background-image: url({{ page.hero_img }}); {% if page.component %} height: 100vh !important;{% endif %}">
+
+    	   {{ content }}
+
+        </div>
+
+        {% include components/extra_components.html %}
+
+        {% include layouts/footer.html %}
+    </div> <!-- .container -->
 
   </body>
 

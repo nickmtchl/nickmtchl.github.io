@@ -1,0 +1,213 @@
+// Our team
+.team_row_2 {
+	position: relative;
+	@extend .clearfix;
+	margin-top: 25px;
+
+	@include widescreen {
+		margin-top: 0;
+	}
+
+	.team_member_mk {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		margin-bottom: 100px;
+
+		@include tablet {
+			margin-bottom: 0;
+		}
+
+		@include widescreen {
+			float: left;
+			width: 50%;
+			position: initial;
+			height: auto;
+		}
+
+		.team_member_img_wrapper_mk {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 70vh;
+
+			@include widescreen {
+				position: relative;
+				height: auto;
+			}
+
+			.team_member_img_mk {
+				background-position: top center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				height: 70vh;
+
+				@include widescreen {
+					height: 90vh;
+				}
+			}
+		}
+	}
+	.team_member_info_mk {
+		display: block;
+		position: relative;
+		top:55vh;
+		width: 100%;
+		clear: both;
+		z-index: 2;
+
+		@include tablet {
+			top: 45vh;
+		}
+
+		@include widescreen {
+			height: 90vh;
+			top:0;
+			width: 50%;
+			position: absolute;
+			right: 0;
+			background: $black;
+		}
+	}
+
+	.team_member_info_even_mk {
+		@extend .team_member_info_mk;
+		left: 0;
+		right: auto;
+		height: 50vh;
+
+		@include widescreen {
+			height: 90vh;
+			top:0;
+			width: 50%;
+		}
+	}
+	.team_member_meta {
+		width:85%;
+
+		@include tablet {
+			padding: 50px;
+		}
+
+		@include desktop {
+			width: 85%;
+		}
+
+		@include widescreen {
+			padding: 20px;
+		}
+
+		.team_member_name_mk {
+			font-size: 28px;
+			line-height: 1.1;
+			padding-bottom: 15px;
+			padding-right: 50px;
+
+			@include tiny {
+				font-size: 34px;
+			}
+
+			@include small {
+				font-size: 40px;
+				line-height: 1;
+				padding-right: 35px;
+			}
+
+			@include tablet {
+				font-size:60px;
+				padding-bottom: 15px;
+				padding-right: 45px;
+			}
+
+			@include laptop {
+				padding-right: 0;
+				max-width: 500px;
+			}
+
+			@include widescreen {
+				font-size:80px;
+				line-height: 85px;
+				padding-bottom: 35px;
+			}
+
+		}
+		.team_member_summary_mk {
+			font-size: 14px;
+			line-height: 1.2;
+			padding-bottom: 25px;
+			text-transform: initial;
+
+			@include tiny {
+				font-size: 18px;
+			}
+
+			@include tablet {
+				font-size: 22px;
+				line-height: 28px;
+				padding-bottom: 15px;
+			}
+
+			@include widescreen {
+				font-size: 28px;
+				line-height: 34px;
+				padding-bottom: 35px;
+			}
+		}
+		.team_member_social_mk {
+			span {
+				padding-right: 20px;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				a {
+					color: $white;
+
+					&:hover {
+						@extend %hover;
+					}
+				}
+			}
+		}
+	}
+}
+.btn_more {
+
+	@include widescreen {
+		background: transparent;
+		border: 0;
+		left: 20px;
+		position: absolute;
+		top: 40px;
+	}
+
+	@include widescreen {
+		left: 60px;
+		top: 60px;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+
+	img {
+		width: 30px;
+
+		@include widescreen {
+			width: auto;
+		}
+	}
+}
+#btn_moreA,
+#btn_moreB {
+	display: none;
+
+	@include widescreen {
+		display: block;
+	}
+}
+#btn_more_close,
+#btn_more_closeB {
+	display: none;
+}
